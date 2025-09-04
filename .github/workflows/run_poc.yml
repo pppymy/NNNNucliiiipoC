@@ -24,7 +24,7 @@ jobs:
         run: pip install requests tqdm PyYAML
 
       - name: Run NucleiPocGather script
-        run: python poc/NucleiPocGather.py
+        run: python NucleiPocGather.py
 
       - name: Delete Nuclei directory
         run: rm -rf nuclei
