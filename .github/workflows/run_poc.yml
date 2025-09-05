@@ -1,13 +1,12 @@
-name: Test Cron Run
+name: Scheduled Job
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # 每5分钟触发一次（方便测试）
-  workflow_dispatch:
+    - cron: '0 10 * * *'  # 每天 UTC 时间 10:00 触发
 
 jobs:
-  test:
+  run_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
-        run: echo "✅ Cron job is running!"
+      - name: Say Hello
+        run: echo "定时任务触发了，当前时间是 $(date -u)"
