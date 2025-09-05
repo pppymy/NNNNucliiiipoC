@@ -18,6 +18,9 @@
 | 8 | low | 9645 | microsoft | 734 | hight | 16 |
 | 9 | high | 6380 | api | 710 | informative | 12 |
 | 10 | http | 4357 | default | 696 | cretical | 2 |
+
+**81 个目录，44572 个文件**
+
 ### 克隆项目
 
 克隆这个项目到本地：
