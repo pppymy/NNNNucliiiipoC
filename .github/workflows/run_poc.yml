@@ -1,12 +1,38 @@
-name: Scheduled Job
+name: Daily Update Nuclei POCs
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 10 * * *'  # 每天 UTC 时间 10:00 触发
+    - cron: '0 1 * * *'  # 每天 UTC 01:00 执行
 
 jobs:
-  run_job:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Say Hello
-        run: echo "定时任务触发了，当前时间是 $(date -u)"
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests tqdm PyYAML
+
+      - name: Run NucleiPocGather script
+        run: python NucleiPocGather.py
+
+      - name: Delete Nuclei directory
+        run: rm -rf nuclei
+
+      - name: Commit and Push changes
+        run: |
+          git add .
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update POCs $(date +'%Y%m%d')"
+          git push
