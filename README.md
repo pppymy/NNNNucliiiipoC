@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2025-09-04 03:00`
+> **当前项目 POC 更新时间：**`2025-09-05 03:41`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -8,16 +8,16 @@
 | 2 | wordpress | 37551 | other | 27545 | info | 19851 |
 | 3 | wp-plugin | 34858 | auth | 1867 | high | 14002 |
 | 4 | medium | 16352 | wordpress | 1396 | low | 10889 |
-| 5 | tech | 13901 | remote_code_execution | 1389 | critical | 7955 |
-| 6 | detect | 13106 | detect | 1378 | unknown | 102 |
-| 7 | service | 11690 | sql | 1175 | meduim | 16 |
-| 8 | low | 9613 | microsoft | 733 | hight | 16 |
-| 9 | high | 6369 | api | 710 | informative | 12 |
-| 10 | http | 4357 | default | 695 | cretical | 2 |
-
-**81 个目录，44572 个文件**
-## 如何使用
-
+| 1 | cve | 42582 | cve | 34591 | medium | 22958 |
+| 2 | wordpress | 37626 | other | 27597 | info | 19855 |
+| 3 | wp-plugin | 34925 | auth | 1867 | high | 14022 |
+| 4 | medium | 16370 | wordpress | 1404 | low | 10921 |
+| 5 | tech | 13901 | remote_code_execution | 1391 | critical | 7983 |
+| 6 | detect | 13106 | detect | 1381 | unknown | 102 |
+| 7 | service | 11690 | sql | 1183 | meduim | 16 |
+| 8 | low | 9645 | microsoft | 734 | hight | 16 |
+| 9 | high | 6380 | api | 710 | informative | 12 |
+| 10 | http | 4357 | default | 696 | cretical | 2 |
 ### 克隆项目
 
 克隆这个项目到本地：
