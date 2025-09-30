@@ -540,7 +540,6 @@
 ./poc/airflow/airflow-debug_7.yaml
 ./poc/airflow/airflow-default-credentials.yaml
 ./poc/airflow/airflow-default-credentials_1.yaml
-./poc/airflow/airflow-default-login-234_1.yaml
 ./poc/airflow/airflow-default-login-234_2.yaml
 ./poc/airflow/airflow-default-login-235.yaml
 ./poc/airflow/airflow-default-login_1.yaml
@@ -32968,6 +32967,8 @@
 ./poc/cve/CVE-2017-1000163_33.yaml
 ./poc/cve/CVE-2017-1000163_34.yaml
 ./poc/cve/CVE-2017-1000163_35.yaml
+./poc/cve/CVE-2017-1000163_36.yaml
+./poc/cve/CVE-2017-1000163_37.yaml
 ./poc/cve/CVE-2017-1000163_4.yaml
 ./poc/cve/CVE-2017-1000163_5.yaml
 ./poc/cve/CVE-2017-1000163_6.yaml
@@ -33370,6 +33371,7 @@
 ./poc/cve/CVE-2017-11586_3.yaml
 ./poc/cve/CVE-2017-11586_30.yaml
 ./poc/cve/CVE-2017-11586_31.yaml
+./poc/cve/CVE-2017-11586_32.yaml
 ./poc/cve/CVE-2017-11586_4.yaml
 ./poc/cve/CVE-2017-11586_5.yaml
 ./poc/cve/CVE-2017-11586_6.yaml
@@ -40523,6 +40525,8 @@
 ./poc/cve/CVE-2018-19136_29.yaml
 ./poc/cve/CVE-2018-19136_3.yaml
 ./poc/cve/CVE-2018-19136_30.yaml
+./poc/cve/CVE-2018-19136_31.yaml
+./poc/cve/CVE-2018-19136_32.yaml
 ./poc/cve/CVE-2018-19136_4.yaml
 ./poc/cve/CVE-2018-19136_5.yaml
 ./poc/cve/CVE-2018-19136_6.yaml
@@ -46821,6 +46825,8 @@
 ./poc/cve/CVE-2019-18957_3.yaml
 ./poc/cve/CVE-2019-18957_30.yaml
 ./poc/cve/CVE-2019-18957_31.yaml
+./poc/cve/CVE-2019-18957_32.yaml
+./poc/cve/CVE-2019-18957_33.yaml
 ./poc/cve/CVE-2019-18957_4.yaml
 ./poc/cve/CVE-2019-18957_5.yaml
 ./poc/cve/CVE-2019-18957_6.yaml
@@ -135309,6 +135315,7 @@
 ./poc/cve/CVE-2023-7115-pagelayer-ca7f1b56-a732-40c1-a05e-4ab3e6b05037.yaml
 ./poc/cve/CVE-2023-7115.yaml
 ./poc/cve/CVE-2023-7115_1.yaml
+./poc/cve/CVE-2023-7116.yaml
 ./poc/cve/CVE-2023-7116_1.yaml
 ./poc/cve/CVE-2023-7116_10.yaml
 ./poc/cve/CVE-2023-7116_11.yaml
@@ -180921,7 +180928,6 @@
 ./poc/cve/CVE-2025-24016_5.yaml
 ./poc/cve/CVE-2025-24016_6.yaml
 ./poc/cve/CVE-2025-24016_7.yaml
-./poc/cve/CVE-2025-24514.yaml
 ./poc/cve/CVE-2025-24514_1.yaml
 ./poc/cve/CVE-2025-24514_10.yaml
 ./poc/cve/CVE-2025-24514_11.yaml
@@ -193238,6 +193244,7 @@
 ./poc/cve/CVE-2025-6200-geodirectory-9700a21e-19cb-4ba9-8bc1-3fb11187152c.yaml
 ./poc/cve/CVE-2025-6201-b6d3f08a6a7aa685613b6b4ec632dca5.yaml
 ./poc/cve/CVE-2025-6201-woocommerce_google_adwords_conversion_tracking_tag-170a4cf2-d379-4c4e-b9e5-fb3b3bd91a40.yaml
+./poc/cve/CVE-2025-6204.yaml
 ./poc/cve/CVE-2025-6205.yaml
 ./poc/cve/CVE-2025-6206-7d1f98efe11719261199e941f2bc3358.yaml
 ./poc/cve/CVE-2025-6206-aiomatic_automatic_ai_content_writer-8e0ff2d6-65d2-4a54-b3e5-64b424013313.yaml
@@ -202424,6 +202431,7 @@
 ./poc/default/aem-default-login_2.yaml
 ./poc/default/aem-default-login_3.yaml
 ./poc/default/airflow-default-login-234.yaml
+./poc/default/airflow-default-login-234_1.yaml
 ./poc/default/airflow-default-login-236.yaml
 ./poc/default/airflow-default-login.yaml
 ./poc/default/alibaba-canal-default-password-261.yaml
@@ -203203,6 +203211,7 @@
 ./poc/default/exacqvision-default-login_3.yaml
 ./poc/default/exacqvision-default-login_4.yaml
 ./poc/default/exacqvision-default-password.yaml
+./poc/default/express-default-page_1.yaml
 ./poc/default/feiyuxing-default-login.yaml
 ./poc/default/feiyuxing-default-login_1.yaml
 ./poc/default/feiyuxing-default-login_2.yaml
@@ -203787,6 +203796,7 @@
 ./poc/default/nginx-proxy-manager-default-login_1.yaml
 ./poc/default/nocobase-default-login.yaml
 ./poc/default/nocobase-default-login_1.yaml
+./poc/default/nodered-default-login.yaml
 ./poc/default/nps-default-login-9142.yaml
 ./poc/default/nps-default-login-9142_1.yaml
 ./poc/default/nps-default-login-9142_2.yaml
@@ -211790,7 +211800,7 @@
 ./poc/fuzz/random-fuzz-00.yaml
 ./poc/fuzz/random-fuzz-01.yaml
 ./poc/fuzz/random-fuzz-02.yaml
-./poc/fuzz/random-fuzz-03-9825.yaml
+./poc/fuzz/random-fuzz-03.yaml
 ./poc/fuzz/rfi-fuzz.yaml
 ./poc/fuzz/waf-fuzz.yaml
 ./poc/fuzz/windows-lfi-fuzz.yaml
@@ -221549,7 +221559,6 @@
 ./poc/nodejs/drupal_module-quick_node_clone-access-bypass_1.yaml
 ./poc/nodejs/erlang-node.yaml
 ./poc/nodejs/express-default-page.yaml
-./poc/nodejs/express-default-page_1.yaml
 ./poc/nodejs/express-default-page_2.yaml
 ./poc/nodejs/express-default-page_3.yaml
 ./poc/nodejs/express-lfr (copy 1).yaml
@@ -221723,7 +221732,6 @@
 ./poc/nodejs/nodebb-installer_5.yaml
 ./poc/nodejs/nodebb.yaml
 ./poc/nodejs/nodejs-framework-exceptions.yaml
-./poc/nodejs/nodered-default-login.yaml
 ./poc/nodejs/npm-access-token.yaml
 ./poc/nodejs/npm-access-token_1.yaml
 ./poc/nodejs/npm-access-token_2.yaml
@@ -245356,6 +245364,7 @@
 ./poc/other/bounce_handler_mailpoet-d2c6fefe-f6f3-44ce-906c-abad717840d5.yaml
 ./poc/other/bowen-providence-car-loading-reservation-system.yaml
 ./poc/other/box-phish.yaml
+./poc/other/box-storage-phish.yaml
 ./poc/other/box-storage-phish_1.yaml
 ./poc/other/box-storage-phish_10.yaml
 ./poc/other/box-storage-phish_11.yaml
@@ -261487,6 +261496,7 @@
 ./poc/other/evernote-phish_17.yaml
 ./poc/other/evernote-phish_18.yaml
 ./poc/other/evernote-phish_19.yaml
+./poc/other/evernote-phish_1_1.yaml
 ./poc/other/evernote-phish_2.yaml
 ./poc/other/evernote-phish_20.yaml
 ./poc/other/evernote-phish_21.yaml
@@ -304297,7 +304307,6 @@
 ./poc/other/sync-qcloud-cos-5f2c9cd12b339ac23d5f58a0b0ebfc0f.yaml
 ./poc/other/sync-qcloud-cos.yaml
 ./poc/other/sync-qcloud-cos_1.yaml
-./poc/other/sync-storage-phish.yaml
 ./poc/other/sync-storage-phish_1.yaml
 ./poc/other/sync-storage-phish_10.yaml
 ./poc/other/sync-storage-phish_11.yaml
