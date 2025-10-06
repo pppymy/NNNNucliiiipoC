@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2025-10-05 03:22`
+> **当前项目 POC 更新时间：**`2025-10-06 03:16`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -8,9 +8,9 @@
 | 2 | wordpress | 37551 | other | 27545 | info | 19851 |
 | 3 | wp-plugin | 34858 | auth | 1867 | high | 14002 |
 | 4 | medium | 16352 | wordpress | 1396 | low | 10889 |
-| 1 | cve | 43854 | cve | 37044 | medium | 24313 |
+| 1 | cve | 43855 | cve | 37045 | medium | 24313 |
 | 2 | wordpress | 38714 | other | 29183 | info | 22870 |
-| 3 | wp-plugin | 35824 | wordpress | 1836 | high | 15081 |
+| 3 | wp-plugin | 35824 | wordpress | 1836 | high | 15082 |
 | 4 | medium | 16705 | auth | 1762 | low | 11465 |
 | 5 | tech | 16010 | sql | 1746 | critical | 8516 |
 | 6 | detect | 15209 | detect | 1248 | unknown | 126 |
