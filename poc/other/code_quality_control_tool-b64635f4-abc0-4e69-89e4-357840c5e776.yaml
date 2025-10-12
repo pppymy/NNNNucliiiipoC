@@ -1,31 +1,31 @@
-id: event-tickets-84761a3467649f24770db32dffab8747
+id: code_quality_control_tool-b64635f4-abc0-4e69-89e4-357840c5e776
 
 info:
   name: >
-    Event Tickets <= 5.2.1 - Open Redirect
+    Code Quality Control Tool <= 0.1 - Unauthenticated Information Exposure via Log Files
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/c9ce2107-18bd-4331-bd8e-578f56fdebf7?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/b64635f4-abc0-4e69-89e4-357840c5e776?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/event-tickets/"
-    google-query: inurl:"/wp-content/plugins/event-tickets/"
-    shodan-query: 'vuln:'
-  tags: cve,wordpress,wp-plugin,event-tickets,low
+    fofa-query: "wp-content/plugins/code-quality-control-tool/"
+    google-query: inurl:"/wp-content/plugins/code-quality-control-tool/"
+    shodan-query: 'http.html:"wp-content/plugins/code-quality-control-tool/"'
+  tags: cve,wordpress,wp-plugin,code-quality-control-tool,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/event-tickets/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/code-quality-control-tool/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "event-tickets"
+          - "code-quality-control-tool"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 5.2.1')
+          - compare_versions(version, '<= 0.1')
