@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2025-11-05 03:31`
+> **当前项目 POC 更新时间：**`2025-11-06 03:29`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -8,16 +8,16 @@
 | 2 | wordpress | 37551 | other | 27545 | info | 19851 |
 | 3 | wp-plugin | 34858 | auth | 1867 | high | 14002 |
 | 4 | medium | 16352 | wordpress | 1396 | low | 10889 |
-| 1 | cve | 44727 | cve | 37459 | info | 25316 |
-| 2 | wordpress | 39374 | other | 31764 | medium | 24602 |
-| 3 | wp-plugin | 36399 | wordpress | 1902 | high | 15384 |
-| 4 | tech | 18258 | auth | 1865 | low | 11784 |
-| 5 | detect | 17546 | sql | 1818 | critical | 8711 |
-| 6 | medium | 16861 | detect | 1273 | unknown | 127 |
+| 1 | cve | 44851 | cve | 37466 | info | 25316 |
+| 2 | wordpress | 39496 | other | 31839 | medium | 24621 |
+| 3 | wp-plugin | 36494 | wordpress | 1919 | high | 15407 |
+| 4 | tech | 18258 | auth | 1865 | low | 11841 |
+| 5 | detect | 17546 | sql | 1832 | critical | 8736 |
+| 6 | medium | 16880 | detect | 1273 | unknown | 127 |
 | 7 | service | 13824 | default | 975 | meduim | 4 |
-| 8 | low | 10196 | remote_code_execution | 950 | hight | 3 |
-| 9 | high | 6670 | api | 905 | none | 1 |
-| 10 | http | 4567 | microsoft | 820 | ciritical | 1 |
+| 8 | low | 10253 | remote_code_execution | 950 | hight | 3 |
+| 9 | high | 6693 | api | 905 | none | 1 |
+| 10 | http | 4567 | microsoft | 824 | ciritical | 1 |
 
 **81 个目录，44572 个文件**
 
