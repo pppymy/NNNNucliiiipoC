@@ -585,6 +585,8 @@
 ./poc/adobe/vmware-authentication-daemon-detect_5.yaml
 ./poc/airflow/Airflow-Unauth.yaml
 ./poc/airflow/Airflow-unauthorized.yaml
+./poc/airflow/airflow-api-exposure.yaml
+./poc/airflow/airflow-api-exposure_3.yaml
 ./poc/airflow/airflow-configuration-exposure-229.yaml
 ./poc/airflow/airflow-configuration-exposure-230.yaml
 ./poc/airflow/airflow-configuration-exposure.yaml
@@ -604,7 +606,13 @@
 ./poc/airflow/airflow-debug_6.yaml
 ./poc/airflow/airflow-debug_7.yaml
 ./poc/airflow/airflow-debug_7_1.yaml
+./poc/airflow/airflow-default-credentials.yaml
 ./poc/airflow/airflow-default-login-234.yaml
+./poc/airflow/airflow-default-login-234_2.yaml
+./poc/airflow/airflow-default-login-236.yaml
+./poc/airflow/airflow-default-login.yaml
+./poc/airflow/airflow-default-login_1_3.yaml
+./poc/airflow/airflow-default-login_2_1.yaml
 ./poc/airflow/airflow-detect-237.yaml
 ./poc/airflow/airflow-detect-238.yaml
 ./poc/airflow/airflow-detect-239.yaml
@@ -627,7 +635,6 @@
 ./poc/airflow/airflow-panel_6.yaml
 ./poc/airflow/airflow-unauth.yaml
 ./poc/airflow/airflow-unauth.yml
-./poc/airflow/airflow-v3-default-login_1.yaml
 ./poc/airflow/airflow-workflow_2.yaml
 ./poc/airflow/airflow.yaml
 ./poc/airflow/apache-airflow.yaml
@@ -1094,8 +1101,6 @@
 ./poc/api/address-autocomplete-using-google-place-api.yaml
 ./poc/api/address-autocomplete-using-google-place-api_3.yaml
 ./poc/api/address_autocomplete_using_google_place_api-f6c94024-20fb-4cc1-a093-1b9974e61220.yaml
-./poc/api/airflow-api-exposure.yaml
-./poc/api/airflow-api-exposure_3.yaml
 ./poc/api/airtable-api-key.yaml
 ./poc/api/airtable-api-key_1.yaml
 ./poc/api/airtable-api-key_2_3.yaml
@@ -1520,7 +1525,6 @@
 ./poc/api/api-newrelic.yaml
 ./poc/api/api-newrelic_1.yaml
 ./poc/api/api-notolytix_3.yaml
-./poc/api/api-nownodes_1.yaml
 ./poc/api/api-nytimes_2.yaml
 ./poc/api/api-onelogin-472.yaml
 ./poc/api/api-onelogin.yaml
@@ -1775,8 +1779,6 @@
 ./poc/api/apimo-91c06e935fbefa53738c9ea05f6c2960_1.yaml
 ./poc/api/apimo-d33437b9-e3c7-4e77-a439-22eb890e2ede.yaml
 ./poc/api/apisix-dashboard-cve-2022-24112-rce.yml
-./poc/api/apisix-default-login-490_1_2.yaml
-./poc/api/apisix-default-login_1_1.yaml
 ./poc/api/apisix-panel.yaml
 ./poc/api/apisix-workflow_3.yaml
 ./poc/api/apisix.yaml
@@ -2315,8 +2317,6 @@
 ./poc/api/kube-api-namespaces_3.yaml
 ./poc/api/kube-api-namespaces_4.yaml
 ./poc/api/kube-api-namespaces_5.yaml
-./poc/api/kube-api-nodes-8507_1.yaml
-./poc/api/kube-api-nodes_4.yaml
 ./poc/api/kube-api-pods-8509.yaml
 ./poc/api/kube-api-pods-8509_1.yaml
 ./poc/api/kube-api-pods-8510.yaml
@@ -12742,10 +12742,6 @@
 ./poc/cisco/cisco-edge-340_7.yaml
 ./poc/cisco/cisco-email-security-detect.yaml
 ./poc/cisco/cisco-email-security-detect_1.yaml
-./poc/cisco/cisco-expressway-panel.yaml
-./poc/cisco/cisco-expressway-panel_1_2.yaml
-./poc/cisco/cisco-expressway-panel_2.yaml
-./poc/cisco/cisco-expressway-panel_3.yaml
 ./poc/cisco/cisco-finesse-login-938.yaml
 ./poc/cisco/cisco-finesse-login-939.yaml
 ./poc/cisco/cisco-finesse-login-940.yaml
@@ -35209,6 +35205,7 @@
 ./poc/cve/CVE-2017-1000163_7.yaml
 ./poc/cve/CVE-2017-1000163_70.yaml
 ./poc/cve/CVE-2017-1000163_71.yaml
+./poc/cve/CVE-2017-1000163_72.yaml
 ./poc/cve/CVE-2017-1000163_8.yaml
 ./poc/cve/CVE-2017-1000163_9.yaml
 ./poc/cve/CVE-2017-1000170-22b977968cdfc3441165a4a3380516b6.yaml
@@ -43234,6 +43231,7 @@
 ./poc/cve/CVE-2018-19136_63.yaml
 ./poc/cve/CVE-2018-19136_64.yaml
 ./poc/cve/CVE-2018-19136_65.yaml
+./poc/cve/CVE-2018-19136_66.yaml
 ./poc/cve/CVE-2018-19136_7.yaml
 ./poc/cve/CVE-2018-19136_8.yaml
 ./poc/cve/CVE-2018-19136_9.yaml
@@ -49768,6 +49766,7 @@
 ./poc/cve/CVE-2019-18957_61.yaml
 ./poc/cve/CVE-2019-18957_62.yaml
 ./poc/cve/CVE-2019-18957_63.yaml
+./poc/cve/CVE-2019-18957_64.yaml
 ./poc/cve/CVE-2019-18957_7.yaml
 ./poc/cve/CVE-2019-18957_8.yaml
 ./poc/cve/CVE-2019-18957_9.yaml
@@ -60616,6 +60615,7 @@
 ./poc/cve/CVE-2020-8656_19.yaml
 ./poc/cve/CVE-2020-8656_2.yaml
 ./poc/cve/CVE-2020-8656_20.yaml
+./poc/cve/CVE-2020-8656_21.yaml
 ./poc/cve/CVE-2020-8656_3.yaml
 ./poc/cve/CVE-2020-8656_4.yaml
 ./poc/cve/CVE-2020-8656_5.yaml
@@ -73811,6 +73811,7 @@
 ./poc/cve/CVE-2021-3287_1.yaml
 ./poc/cve/CVE-2021-3287_10.yaml
 ./poc/cve/CVE-2021-3287_11.yaml
+./poc/cve/CVE-2021-3287_12.yaml
 ./poc/cve/CVE-2021-3287_2.yaml
 ./poc/cve/CVE-2021-3287_3.yaml
 ./poc/cve/CVE-2021-3287_4.yaml
@@ -74728,6 +74729,7 @@
 ./poc/cve/CVE-2021-35064_18.yaml
 ./poc/cve/CVE-2021-35064_19.yaml
 ./poc/cve/CVE-2021-35064_2.yaml
+./poc/cve/CVE-2021-35064_20.yaml
 ./poc/cve/CVE-2021-35064_3.yaml
 ./poc/cve/CVE-2021-35064_4.yaml
 ./poc/cve/CVE-2021-35064_5.yaml
@@ -97851,6 +97853,7 @@
 ./poc/cve/CVE-2022-38627_21.yaml
 ./poc/cve/CVE-2022-38627_22.yaml
 ./poc/cve/CVE-2022-38627_23.yaml
+./poc/cve/CVE-2022-38627_24.yaml
 ./poc/cve/CVE-2022-38627_3.yaml
 ./poc/cve/CVE-2022-38627_4.yaml
 ./poc/cve/CVE-2022-38627_5.yaml
@@ -143378,6 +143381,7 @@
 ./poc/cve/CVE-2024-10146_6.yaml
 ./poc/cve/CVE-2024-10146_7.yaml
 ./poc/cve/CVE-2024-10146_8.yaml
+./poc/cve/CVE-2024-10146_9.yaml
 ./poc/cve/CVE-2024-10147-002fcce0581627f4a9b1f3dab00143e0.yaml
 ./poc/cve/CVE-2024-10147-steel-b1ed1ef4-8867-499b-8f73-296280573462.yaml
 ./poc/cve/CVE-2024-10147.yaml
@@ -179708,6 +179712,7 @@
 ./poc/cve/CVE-2024-6690_11.yaml
 ./poc/cve/CVE-2024-6690_12.yaml
 ./poc/cve/CVE-2024-6690_13.yaml
+./poc/cve/CVE-2024-6690_14.yaml
 ./poc/cve/CVE-2024-6690_2.yaml
 ./poc/cve/CVE-2024-6690_3.yaml
 ./poc/cve/CVE-2024-6690_4.yaml
@@ -183620,6 +183625,7 @@
 ./poc/cve/CVE-2024-9772_38.yaml
 ./poc/cve/CVE-2024-9772_39.yaml
 ./poc/cve/CVE-2024-9772_4.yaml
+./poc/cve/CVE-2024-9772_40.yaml
 ./poc/cve/CVE-2024-9772_5.yaml
 ./poc/cve/CVE-2024-9772_6.yaml
 ./poc/cve/CVE-2024-9772_7.yaml
@@ -210899,19 +210905,14 @@
 ./poc/default/aem-default-login_2.yaml
 ./poc/default/aem-default-login_3_1.yaml
 ./poc/default/aem-default-login_4.yaml
-./poc/default/airflow-default-credentials.yaml
 ./poc/default/airflow-default-credentials_1.yaml
 ./poc/default/airflow-default-login-234_1_1.yaml
-./poc/default/airflow-default-login-234_2.yaml
 ./poc/default/airflow-default-login-235.yaml
-./poc/default/airflow-default-login-236.yaml
-./poc/default/airflow-default-login.yaml
 ./poc/default/airflow-default-login_1.yaml
-./poc/default/airflow-default-login_1_3.yaml
-./poc/default/airflow-default-login_2_1.yaml
 ./poc/default/airflow-default-login_3.yaml
 ./poc/default/airflow-default-login_5.yaml
 ./poc/default/airflow-v3-default-login.yaml
+./poc/default/airflow-v3-default-login_1.yaml
 ./poc/default/alibaba-canal-default-password-261.yaml
 ./poc/default/alibaba-canal-default-password-262.yaml
 ./poc/default/alibaba-canal-default-password.yaml
@@ -210959,10 +210960,12 @@
 ./poc/default/apache-superset-default-credentials.yaml
 ./poc/default/apc-nmc-default-login_2.yaml
 ./poc/default/apisix-default-login-490.yaml
+./poc/default/apisix-default-login-490_1_2.yaml
 ./poc/default/apisix-default-login-490_2.yaml
 ./poc/default/apisix-default-login-491.yaml
 ./poc/default/apisix-default-login-492.yaml
 ./poc/default/apisix-default-login.yaml
+./poc/default/apisix-default-login_1_1.yaml
 ./poc/default/apisix-default-login_2.yaml
 ./poc/default/apisix-default-login_3.yaml
 ./poc/default/apisix-default-login_4.yaml
@@ -211845,10 +211848,6 @@
 ./poc/default/exacqvision-default-login_3.yaml
 ./poc/default/exacqvision-default-login_4.yaml
 ./poc/default/exacqvision-default-password.yaml
-./poc/default/express-default-page.yaml
-./poc/default/express-default-page_1_1.yaml
-./poc/default/express-default-page_2_1.yaml
-./poc/default/express-default-page_3_3.yaml
 ./poc/default/feiyuxing-default-login.yaml
 ./poc/default/feiyuxing-default-login_1.yaml
 ./poc/default/feiyuxing-default-login_2.yaml
@@ -212790,12 +212789,15 @@
 ./poc/default/rabbitmq-default-admin-9781.yaml
 ./poc/default/rabbitmq-default-admin-9782.yaml
 ./poc/default/rabbitmq-default-admin-9782_1.yaml
+./poc/default/rabbitmq-default-admin.yaml
 ./poc/default/rabbitmq-default-admin_1.yaml
 ./poc/default/rabbitmq-default-admin_1_2.yaml
 ./poc/default/rabbitmq-default-login-9783.yaml
 ./poc/default/rabbitmq-default-login-9783_1.yaml
+./poc/default/rabbitmq-default-login-9783_2.yaml
 ./poc/default/rabbitmq-default-login-9783_2_1.yaml
 ./poc/default/rabbitmq-default-login-9784.yaml
+./poc/default/rabbitmq-default-login-9785.yaml
 ./poc/default/rabbitmq-default-login-9786.yaml
 ./poc/default/rabbitmq-default-login.yaml
 ./poc/default/rabbitmq-default-login_1_1.yaml
@@ -232828,14 +232830,19 @@
 ./poc/nodejs/american-express-phish_8_3.yaml
 ./poc/nodejs/american-express-phish_9.yaml
 ./poc/nodejs/american-express-phish_9_1.yaml
+./poc/nodejs/api-nownodes_1.yaml
 ./poc/nodejs/api-npm-471.yaml
 ./poc/nodejs/api-npm_3.yaml
 ./poc/nodejs/chilexpress-oficial-0932261639768e36f912c56f3f9fb502_3.yaml
 ./poc/nodejs/chilexpress-oficial_1_2.yaml
 ./poc/nodejs/chilexpress-oficial_3.yaml
 ./poc/nodejs/chilexpress_oficial-0999a738-9fae-4043-99eb-ff222a7608fa.yaml
+./poc/nodejs/cisco-expressway-panel.yaml
 ./poc/nodejs/cisco-expressway-panel_1.yaml
+./poc/nodejs/cisco-expressway-panel_1_2.yaml
+./poc/nodejs/cisco-expressway-panel_2.yaml
 ./poc/nodejs/cisco-expressway-panel_2_3.yaml
+./poc/nodejs/cisco-expressway-panel_3.yaml
 ./poc/nodejs/cisco-expressway.yaml
 ./poc/nodejs/cisco-expressway_2.yaml
 ./poc/nodejs/cisco-unity-express-panel-detect.yaml
@@ -232878,6 +232885,10 @@
 ./poc/nodejs/drupal_module-quick_node_clone-access-bypass_1.yaml
 ./poc/nodejs/eks-node-group-remote-access_2.yaml
 ./poc/nodejs/erlang-node.yaml
+./poc/nodejs/express-default-page.yaml
+./poc/nodejs/express-default-page_1_1.yaml
+./poc/nodejs/express-default-page_2_1.yaml
+./poc/nodejs/express-default-page_3_3.yaml
 ./poc/nodejs/express-lfr (copy 1).yaml
 ./poc/nodejs/express-lfr-json (copy 1).yaml
 ./poc/nodejs/express-lfr-json.yaml
@@ -232941,12 +232952,14 @@
 ./poc/nodejs/jt-express.yaml
 ./poc/nodejs/jt_express-999d8168-b4be-492e-8f25-9df104711341.yaml
 ./poc/nodejs/kube-api-nodes-8507.yaml
+./poc/nodejs/kube-api-nodes-8507_1.yaml
 ./poc/nodejs/kube-api-nodes-8508.yaml
 ./poc/nodejs/kube-api-nodes-8508_2.yaml
 ./poc/nodejs/kube-api-nodes-8508_3.yaml
 ./poc/nodejs/kube-api-nodes.yaml
 ./poc/nodejs/kube-api-nodes_1.yaml
 ./poc/nodejs/kube-api-nodes_2_1.yaml
+./poc/nodejs/kube-api-nodes_4.yaml
 ./poc/nodejs/lfr_express.yaml
 ./poc/nodejs/lfr_express_1.yaml
 ./poc/nodejs/lfr_express_2.yaml
@@ -337976,9 +337989,6 @@
 ./poc/rabbitmq/rabbitmq-dashboard_4.yaml
 ./poc/rabbitmq/rabbitmq-dashboard_5.yaml
 ./poc/rabbitmq/rabbitmq-dashboard_6.yaml
-./poc/rabbitmq/rabbitmq-default-admin.yaml
-./poc/rabbitmq/rabbitmq-default-login-9783_2.yaml
-./poc/rabbitmq/rabbitmq-default-login-9785.yaml
 ./poc/rabbitmq/rabbitmq-detect.yaml
 ./poc/rabbitmq/rabbitmq-detect_1.yaml
 ./poc/rabbitmq/rabbitmq-detect_1_3.yaml
