@@ -648,15 +648,8 @@
 ./poc/airflow/airflow-debug_7.yaml
 ./poc/airflow/airflow-debug_7_1.yaml
 ./poc/airflow/airflow-default-credentials.yaml
-./poc/airflow/airflow-default-credentials_1.yaml
-./poc/airflow/airflow-default-login-234.yaml
-./poc/airflow/airflow-default-login-234_1_1.yaml
 ./poc/airflow/airflow-default-login-234_2.yaml
 ./poc/airflow/airflow-default-login-235.yaml
-./poc/airflow/airflow-default-login-236.yaml
-./poc/airflow/airflow-default-login.yaml
-./poc/airflow/airflow-default-login_1_3.yaml
-./poc/airflow/airflow-default-login_2_1.yaml
 ./poc/airflow/airflow-default-login_3.yaml
 ./poc/airflow/airflow-default-login_4.yaml
 ./poc/airflow/airflow-default-login_5.yaml
@@ -10292,6 +10285,7 @@
 ./poc/auth/tracer-sc-login-10830_1.yaml
 ./poc/auth/tracer-sc-login-10831.yaml
 ./poc/auth/tracer-sc-login.yaml
+./poc/auth/tracer-sc-login_10.yaml
 ./poc/auth/tracer-sc-login_1_1.yaml
 ./poc/auth/tracer-sc-login_2_2.yaml
 ./poc/auth/tracer-sc-login_3.yaml
@@ -11005,6 +10999,7 @@
 ./poc/auth/whm-login-detect_3.yaml
 ./poc/auth/whm-login-detect_4.yaml
 ./poc/auth/whm-login-detect_5.yaml
+./poc/auth/whm-login-detect_6.yaml
 ./poc/auth/windows-administrator-blank-password_1.yaml
 ./poc/auth/windows-administrator-blank-password_2.yaml
 ./poc/auth/windows-credential-manager-plaintext-passwords-allowed.yaml
@@ -13748,10 +13743,10 @@
 ./poc/cisco/cisco-edge-340_9.yaml
 ./poc/cisco/cisco-email-security-detect.yaml
 ./poc/cisco/cisco-email-security-detect_1.yaml
+./poc/cisco/cisco-expressway-panel.yaml
 ./poc/cisco/cisco-expressway-panel_1.yaml
-./poc/cisco/cisco-expressway-panel_2_3.yaml
+./poc/cisco/cisco-expressway-panel_2.yaml
 ./poc/cisco/cisco-expressway-panel_4.yaml
-./poc/cisco/cisco-expressway.yaml
 ./poc/cisco/cisco-expressway_2.yaml
 ./poc/cisco/cisco-finesse-login-938.yaml
 ./poc/cisco/cisco-finesse-login-939.yaml
@@ -13985,8 +13980,6 @@
 ./poc/cisco/cisco-unified-communications-log4j_5.yaml
 ./poc/cisco/cisco-unified-communications-log4j_6.yaml
 ./poc/cisco/cisco-unified-communications-log4j_7.yaml
-./poc/cisco/cisco-unity-express-panel-detect.yaml
-./poc/cisco/cisco-unity-express-panel-detect_1.yaml
 ./poc/cisco/cisco-unity-panel.yaml
 ./poc/cisco/cisco-unity-panel_1.yaml
 ./poc/cisco/cisco-unity-panel_2_2.yaml
@@ -14223,6 +14216,7 @@
 ./poc/cnvd/CNVD-2020-23735_6.yaml
 ./poc/cnvd/CNVD-2020-23735_7.yaml
 ./poc/cnvd/CNVD-2020-23735_8.yaml
+./poc/cnvd/CNVD-2020-23735_9.yaml
 ./poc/cnvd/CNVD-2020-26585.yaml
 ./poc/cnvd/CNVD-2020-26585_1_1.yaml
 ./poc/cnvd/CNVD-2020-26585_2_2.yaml
@@ -14419,6 +14413,7 @@
 ./poc/cnvd/CNVD-2021-49104_6.yaml
 ./poc/cnvd/CNVD-2021-49104_7.yaml
 ./poc/cnvd/CNVD-2021-49104_8.yaml
+./poc/cnvd/CNVD-2021-49104_9.yaml
 ./poc/cnvd/CNVD-2021-64035_1_1.yaml
 ./poc/cnvd/CNVD-2021-64035_2.yaml
 ./poc/cnvd/CNVD-2021-64035_3.yaml
@@ -57733,6 +57728,7 @@
 ./poc/cve/CVE-2020-11450_19.yaml
 ./poc/cve/CVE-2020-11450_1_3.yaml
 ./poc/cve/CVE-2020-11450_20.yaml
+./poc/cve/CVE-2020-11450_21.yaml
 ./poc/cve/CVE-2020-11450_2_2.yaml
 ./poc/cve/CVE-2020-11450_3_1.yaml
 ./poc/cve/CVE-2020-11450_4_1.yaml
@@ -96178,6 +96174,7 @@
 ./poc/cve/CVE-2022-21371_6.yaml
 ./poc/cve/CVE-2022-21371_7.yaml
 ./poc/cve/CVE-2022-21371_8.yaml
+./poc/cve/CVE-2022-21371_9.yaml
 ./poc/cve/CVE-2022-21386_3.yaml
 ./poc/cve/CVE-2022-21409.yaml
 ./poc/cve/CVE-2022-21419.yaml
@@ -238678,7 +238675,14 @@
 ./poc/default/aem-default-login_2.yaml
 ./poc/default/aem-default-login_3_1.yaml
 ./poc/default/aem-default-login_4.yaml
+./poc/default/airflow-default-credentials_1.yaml
+./poc/default/airflow-default-login-234.yaml
+./poc/default/airflow-default-login-234_1_1.yaml
+./poc/default/airflow-default-login-236.yaml
+./poc/default/airflow-default-login.yaml
 ./poc/default/airflow-default-login_1.yaml
+./poc/default/airflow-default-login_1_3.yaml
+./poc/default/airflow-default-login_2_1.yaml
 ./poc/default/alibaba-canal-default-password-261.yaml
 ./poc/default/alibaba-canal-default-password-262.yaml
 ./poc/default/alibaba-canal-default-password.yaml
@@ -240390,6 +240394,7 @@
 ./poc/default/nocobase-default-login.yaml
 ./poc/default/nocobase-default-login_1.yaml
 ./poc/default/nocobase-default-login_2.yaml
+./poc/default/nodered-default-login_3.yaml
 ./poc/default/nps-default-key.yaml
 ./poc/default/nps-default-login-9142.yaml
 ./poc/default/nps-default-login-9142_2_3.yaml
@@ -245847,6 +245852,7 @@
 ./poc/detect/zentao-detect_4.yaml
 ./poc/detect/zentao-detect_5.yaml
 ./poc/detect/zentao-detect_6.yaml
+./poc/detect/zentao-detect_7.yaml
 ./poc/detect/zentral-detection.yaml
 ./poc/detect/zentral-detection_1.yaml
 ./poc/detect/zimbra-detect.yaml
@@ -253873,6 +253879,7 @@
 ./poc/java/liquibase-spring-boot_1.yaml
 ./poc/java/netweaver_application_server_java_2.yaml
 ./poc/java/public-tomcat-instance.yaml
+./poc/java/public-tomcat-instance_1.yaml
 ./poc/java/public-tomcat-instance_1_2.yaml
 ./poc/java/public-tomcat-instance_3.yaml
 ./poc/java/public-tomcat-manager-1_1.yaml
@@ -262073,10 +262080,12 @@
 ./poc/nodejs/chilexpress-oficial_1_2.yaml
 ./poc/nodejs/chilexpress-oficial_3.yaml
 ./poc/nodejs/chilexpress_oficial-0999a738-9fae-4043-99eb-ff222a7608fa.yaml
-./poc/nodejs/cisco-expressway-panel.yaml
 ./poc/nodejs/cisco-expressway-panel_1_2.yaml
-./poc/nodejs/cisco-expressway-panel_2.yaml
+./poc/nodejs/cisco-expressway-panel_2_3.yaml
 ./poc/nodejs/cisco-expressway-panel_3.yaml
+./poc/nodejs/cisco-expressway.yaml
+./poc/nodejs/cisco-unity-express-panel-detect.yaml
+./poc/nodejs/cisco-unity-express-panel-detect_1.yaml
 ./poc/nodejs/clevernode-related-content-6a7b80438e41045ded23449d584ea06d_3.yaml
 ./poc/nodejs/clevernode-related-content_1_3.yaml
 ./poc/nodejs/clevernode_related_content-e70a1197-b5b1-4f30-a253-89eb198c670e.yaml
@@ -262338,7 +262347,6 @@
 ./poc/nodejs/nodejs-framework-exceptions_3.yaml
 ./poc/nodejs/nodered-default-login.yaml
 ./poc/nodejs/nodered-default-login_1.yaml
-./poc/nodejs/nodered-default-login_3.yaml
 ./poc/nodejs/npm-access-token.yaml
 ./poc/nodejs/npm-access-token_1_3.yaml
 ./poc/nodejs/npm-access-token_2.yaml
@@ -291225,6 +291233,7 @@
 ./poc/other/cacti-weathermap-file-write_6.yaml
 ./poc/other/cacti-weathermap-file-write_7.yaml
 ./poc/other/cacti-weathermap-file-write_8.yaml
+./poc/other/cacti-weathermap-file-write_9.yaml
 ./poc/other/cacti-workflow.yaml
 ./poc/other/cacti-workflow_1.yaml
 ./poc/other/cacti.yaml
@@ -362281,6 +362290,7 @@
 ./poc/other/watchguard-panel-11109.yaml
 ./poc/other/watchguard-panel.yaml
 ./poc/other/watchguard-panel_1.yaml
+./poc/other/watchguard-panel_10.yaml
 ./poc/other/watchguard-panel_2.yaml
 ./poc/other/watchguard-panel_3.yaml
 ./poc/other/watchguard-panel_4.yaml
