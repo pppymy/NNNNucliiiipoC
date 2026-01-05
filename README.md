@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2026-01-04 04:07`
+> **当前项目 POC 更新时间：**`2026-01-05 04:10`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -14,10 +14,10 @@
 | 4 | medium | 24682 | wordpress | 2353 | high | 18950 |
 | 5 | low | 21127 | auth | 2070 | critical | 11189 |
 | 6 | tech | 18271 | detect | 1320 | unknown | 127 |
-| 7 | detect | 17558 | remote_code_execution | 1010 | meduim | 4 |
-| 8 | production | 16191 | default | 1009 | hight | 3 |
+| 7 | detect | 17558 | default | 1012 | meduim | 4 |
+| 8 | production | 16191 | remote_code_execution | 1010 | hight | 3 |
 | 9 | service | 13830 | microsoft | 1008 | none | 1 |
-| 10 | candidate | 9945 | api | 997 | ciritical | 1 |
+| 10 | candidate | 9945 | api | 996 | ciritical | 1 |
 
 **81 个目录，44572 个文件**
 
