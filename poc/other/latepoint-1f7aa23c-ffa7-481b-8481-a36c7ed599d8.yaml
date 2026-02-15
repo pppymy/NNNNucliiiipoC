@@ -1,15 +1,15 @@
-id: latepoint-22bcfd36-ecf9-4d2c-ac94-94ffa0340c4c
+id: latepoint-1f7aa23c-ffa7-481b-8481-a36c7ed599d8
 
 info:
   name: >
-    LatePoint – Calendar Booking Plugin for Appointments and Events <= 5.2.5 - Unauthenticated Stored Cross-Site Scripting
+    LatePoint – Calendar Booking Plugin for Appointments and Events <= 5.2.5 - Cross-Site Request Forgery
   author: topscoder
-  severity: high
+  severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/22bcfd36-ecf9-4d2c-ac94-94ffa0340c4c?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/1f7aa23c-ffa7-481b-8481-a36c7ed599d8?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
@@ -18,7 +18,7 @@ info:
     fofa-query: "wp-content/plugins/latepoint/"
     google-query: inurl:"/wp-content/plugins/latepoint/"
     shodan-query: 'http.html:"wp-content/plugins/latepoint/"'
-  tags: cve,wordpress,wp-plugin,latepoint,high,candidate
+  tags: cve,wordpress,wp-plugin,latepoint,medium,candidate
 
 http:
   - method: GET
