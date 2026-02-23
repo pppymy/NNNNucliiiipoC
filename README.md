@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2026-02-22 04:41`
+> **当前项目 POC 更新时间：**`2026-02-23 04:43`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -15,7 +15,7 @@
 | 5 | low | 21894 | auth | 2099 | critical | 11512 |
 | 6 | tech | 18285 | detect | 1333 | unknown | 113 |
 | 7 | detect | 17561 | microsoft | 1033 | meduim | 4 |
-| 8 | production | 16303 | default | 1012 | hight | 3 |
+| 8 | production | 16303 | default | 1013 | hight | 3 |
 | 9 | service | 13830 | remote_code_execution | 1011 | none | 1 |
 | 10 | candidate | 11481 | api | 958 | ciritical | 1 |
 
