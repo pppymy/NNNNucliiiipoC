@@ -218079,7 +218079,7 @@
 ./poc/cve/CVE-2024-47335.yaml
 ./poc/cve/CVE-2024-47336-865f1b98ba42b6fae59f2983e1315398.yaml
 ./poc/cve/CVE-2024-47336.yaml
-./poc/cve/CVE-2024-47336_1_2.yaml
+./poc/cve/CVE-2024-47336_1.yaml
 ./poc/cve/CVE-2024-47337-73e783323bc220c33becfeba650b5d34.yaml
 ./poc/cve/CVE-2024-47337-joy_of_text-4afb151c-4e6b-4441-a190-becd4fe78019_1.yaml
 ./poc/cve/CVE-2024-47337.yaml
@@ -273247,8 +273247,8 @@
 ./poc/elk/elasticsearch-log4j_1_1.yaml
 ./poc/elk/elasticsearch.yml
 ./poc/elk/elasticsearch5-log4j-rce_1.yaml
+./poc/elk/elasticsearch_1.yaml
 ./poc/elk/elasticsearch_10.yaml
-./poc/elk/elasticsearch_1_3.yaml
 ./poc/elk/elasticsearch_2.yaml
 ./poc/elk/elasticsearch_3.yaml
 ./poc/elk/elasticsearch_4.yaml
@@ -273524,7 +273524,7 @@
 ./poc/exposed/bitbucket-oauth-exposure.yaml
 ./poc/exposed/bitbucket-oauth-exposure_2.yaml
 ./poc/exposed/bitly-secret-key-disclosure.yaml
-./poc/exposed/bitrix-full-path-disclosure.yaml
+./poc/exposed/bitrix-full-path-disclosure_1.yaml
 ./poc/exposed/broadcom-backupsettings-exposure.yaml
 ./poc/exposed/cadvisor-exposure.yaml
 ./poc/exposed/cadvisor-exposure_1.yaml
@@ -273648,12 +273648,13 @@
 ./poc/exposed/dgraph-dashboard-exposure_8.yaml
 ./poc/exposed/dgraph-dashboard-exposure_9.yaml
 ./poc/exposed/disclosure-path-env.yaml
+./poc/exposed/django-debug-exposed-404.yaml
 ./poc/exposed/django-debug-exposure-7028.yaml
 ./poc/exposed/django-debug-exposure-7029.yaml
-./poc/exposed/django-debug-exposure-7029_1.yaml
 ./poc/exposed/django-debug-exposure-7030.yaml
 ./poc/exposed/django-debug-exposure-7030_3.yaml
 ./poc/exposed/django-debug-exposure-7031_3.yaml
+./poc/exposed/django-debug-exposure-csrf.yaml
 ./poc/exposed/django-debug-exposure.yaml
 ./poc/exposed/django-debug-exposure_2.yaml
 ./poc/exposed/django-debug-exposure_4.yaml
@@ -273778,6 +273779,7 @@
 ./poc/exposed/exposed-alps-spring-3_3.yaml
 ./poc/exposed/exposed-alps-spring-7283.yaml
 ./poc/exposed/exposed-alps-spring-7284.yaml
+./poc/exposed/exposed-alps-spring-7285.yaml
 ./poc/exposed/exposed-alps-spring-7285_1.yaml
 ./poc/exposed/exposed-alps-spring.yaml
 ./poc/exposed/exposed-alps-spring_1.yaml
@@ -274320,9 +274322,11 @@
 ./poc/exposed/iotawatt-app-exposure_3.yaml
 ./poc/exposed/iotawatt-app-exposure_4.yaml
 ./poc/exposed/iotawatt-app-exposure_6.yaml
+./poc/exposed/java-melody-exposed-1.yaml
 ./poc/exposed/java-melody-exposed-1_1.yaml
 ./poc/exposed/java-melody-exposed-2.yaml
 ./poc/exposed/java-melody-exposed-2_1.yaml
+./poc/exposed/java-melody-exposed-8221.yaml
 ./poc/exposed/java-melody-exposed-8222.yaml
 ./poc/exposed/java-melody-exposed-8223.yaml
 ./poc/exposed/java-melody-exposed-8224.yaml
@@ -274965,6 +274969,7 @@
 ./poc/exposed/tomcat-cookie-exposed_1.yaml
 ./poc/exposed/tomcat-cookie-exposed_1_1.yaml
 ./poc/exposed/tomcat-cookie-exposed_2.yaml
+./poc/exposed/tomcat-exposed-docs.yaml
 ./poc/exposed/tomcat-exposed-docs_1.yaml
 ./poc/exposed/tomcat-exposed-docs_2_1.yaml
 ./poc/exposed/tomcat-exposed-docs_3.yaml
@@ -279241,7 +279246,6 @@
 ./poc/java/ecology-springframework-directoryTraversal.yaml
 ./poc/java/embed-ispring-b6fe75098511d48baa555e9c08e61fd1.yaml
 ./poc/java/embed_ispring-19c3d7dd-ccde-463c-abd9-f2c67961251a.yaml
-./poc/java/exposed-alps-spring-7285.yaml
 ./poc/java/facemeeting-struts2-rce.yaml
 ./poc/java/fastspring-2c13d2bd3b17da87e15b2429f2a85187.yaml
 ./poc/java/fastspring-e96d118a-e38c-4043-9550-5f5ab0d83dc7.yaml
@@ -279285,8 +279289,6 @@
 ./poc/java/j2ee-lfi.yaml
 ./poc/java/java-cim.yaml
 ./poc/java/java-ftp-proxy-detect.yaml
-./poc/java/java-melody-exposed-1.yaml
-./poc/java/java-melody-exposed-8221.yaml
 ./poc/java/java-melody-stat.yaml
 ./poc/java/java-melody-xss-8225.yaml
 ./poc/java/java-melody-xss-8225_1.yaml
@@ -279939,7 +279941,6 @@
 ./poc/java/tomcat-examples-login_4.yaml
 ./poc/java/tomcat-examples-login_5.yaml
 ./poc/java/tomcat-examples-login_CVE-2022-34305.yaml
-./poc/java/tomcat-exposed-docs.yaml
 ./poc/java/tomcat-found.yaml
 ./poc/java/tomcat-manager-bruteforce.yaml
 ./poc/java/tomcat-manager-bruteforce_2.yaml
@@ -281111,7 +281112,7 @@
 ./poc/laravel/laravel-ignition-xss.yaml
 ./poc/laravel/laravel-ignition-xss_1.yaml
 ./poc/laravel/laravel-ignition-xss_2_1.yaml
-./poc/laravel/laravel-ignition-xss_3_2.yaml
+./poc/laravel/laravel-ignition-xss_3.yaml
 ./poc/laravel/laravel-ignition-xss_5.yaml
 ./poc/laravel/laravel-improper-webdir.yaml
 ./poc/laravel/laravel-improper-webdir.yml
@@ -389372,8 +389373,7 @@
 ./poc/python/django-debug-detect_2.yaml
 ./poc/python/django-debug-enable.yaml
 ./poc/python/django-debug-enabled.yaml
-./poc/python/django-debug-exposed-404.yaml
-./poc/python/django-debug-exposure-csrf.yaml
+./poc/python/django-debug-exposure-7029_1.yaml
 ./poc/python/django-debug-toolbar.yaml
 ./poc/python/django-debug-v2.yaml
 ./poc/python/django-debug.yaml
