@@ -11589,6 +11589,7 @@
 ./poc/auth/unencrypted-bigip-ltm-cookie-10973.yaml
 ./poc/auth/unencrypted-bigip-ltm-cookie.yaml
 ./poc/auth/unencrypted-bigip-ltm-cookie_3.yaml
+./poc/auth/unifi-nfc-credentials.yaml
 ./poc/auth/unify-hipath-default-login.yaml
 ./poc/auth/untangle-admin-login.yaml
 ./poc/auth/untangle-admin-login_1.yaml
@@ -284186,7 +284187,6 @@
 ./poc/exposed/CVE-2025-22552-affiliate_disclosure_statement-c565f455-6c83-42af-9f79-dcf4d03320a8.yaml
 ./poc/exposed/CVE-2025-22771-sensitive_chinese_words_scanner-444f6a49-9d7a-4661-bab7-06d16f5f0317.yaml
 ./poc/exposed/CVE-2025-49344-sensitive_tag_cloud-aed630d4-7f8b-4b42-8209-aa8a536349da.yaml
-./poc/exposed/Django-Debug-Disclosure.yaml
 ./poc/exposed/Elmah-log-disclosure.yaml
 ./poc/exposed/FCKEditor-Exposed.yaml
 ./poc/exposed/GLPI_Exposed_Data_1.yaml
@@ -284527,11 +284527,9 @@
 ./poc/exposed/dgraph-dashboard-exposure_8.yaml
 ./poc/exposed/dgraph-dashboard-exposure_9.yaml
 ./poc/exposed/disclosure-path-env.yaml
-./poc/exposed/django-debug-exposed-404.yaml
-./poc/exposed/django-debug-exposure-7030_3.yaml
+./poc/exposed/django-debug-exposure-7028.yaml
 ./poc/exposed/django-debug-exposure-csrf.yaml
-./poc/exposed/django-debug-exposure_2.yaml
-./poc/exposed/django-debug-exposure_4.yaml
+./poc/exposed/django-debug-exposure.yaml
 ./poc/exposed/dlink-cve-2020-25078-account-disclosure.yaml
 ./poc/exposed/docker-credentials-exposure.yaml
 ./poc/exposed/docker-daemon-exposed.yaml
@@ -284645,12 +284643,12 @@
 ./poc/exposed/exposed-adb_5.yaml
 ./poc/exposed/exposed-alps-spring-1.yaml
 ./poc/exposed/exposed-alps-spring-1_2.yaml
-./poc/exposed/exposed-alps-spring-2.yaml
 ./poc/exposed/exposed-alps-spring-2_1.yaml
 ./poc/exposed/exposed-alps-spring-3.yaml
 ./poc/exposed/exposed-alps-spring-3_3.yaml
 ./poc/exposed/exposed-alps-spring-7283.yaml
 ./poc/exposed/exposed-alps-spring-7284.yaml
+./poc/exposed/exposed-alps-spring-7285.yaml
 ./poc/exposed/exposed-alps-spring-7285_1.yaml
 ./poc/exposed/exposed-alps-spring.yaml
 ./poc/exposed/exposed-alps-spring_1.yaml
@@ -284853,7 +284851,6 @@
 ./poc/exposed/exposed-sharepoint-list_3.yaml
 ./poc/exposed/exposed-smb_2.yaml
 ./poc/exposed/exposed-sonarqube.yaml
-./poc/exposed/exposed-springboot.yaml
 ./poc/exposed/exposed-sqlite-manager-1.yaml
 ./poc/exposed/exposed-sqlite-manager-1_2.yaml
 ./poc/exposed/exposed-sqlite-manager-2.yaml
@@ -285195,13 +285192,11 @@
 ./poc/exposed/java-melody-exposed-1.yaml
 ./poc/exposed/java-melody-exposed-1_1.yaml
 ./poc/exposed/java-melody-exposed-2_1.yaml
-./poc/exposed/java-melody-exposed-8222.yaml
+./poc/exposed/java-melody-exposed-8221.yaml
 ./poc/exposed/java-melody-exposed-8223.yaml
 ./poc/exposed/java-melody-exposed-8224.yaml
 ./poc/exposed/java-melody-exposed-8224_2.yaml
-./poc/exposed/java-melody-exposed.yaml
 ./poc/exposed/java-melody-exposed_2_1.yaml
-./poc/exposed/java-melody-exposed_3.yaml
 ./poc/exposed/jenkins-credentials-disclosure_2.yml
 ./poc/exposed/jenkins-exposed.yaml
 ./poc/exposed/jenkins-home-dir-exposure.yaml
@@ -285837,6 +285832,7 @@
 ./poc/exposed/tomcat-exposed-docs_1.yaml
 ./poc/exposed/tomcat-exposed-docs_3.yaml
 ./poc/exposed/tomcat-exposed-docs_5.yaml
+./poc/exposed/tomcat-exposed.yaml
 ./poc/exposed/tomcat-server-xml-disclosure.yaml
 ./poc/exposed/tomcat-version-disclosure.yaml
 ./poc/exposed/tongda-contact-list-disclosure.yaml
@@ -290107,7 +290103,7 @@
 ./poc/java/ecology-springframework-directoryTraversal.yaml
 ./poc/java/embed-ispring-b6fe75098511d48baa555e9c08e61fd1.yaml
 ./poc/java/embed_ispring-19c3d7dd-ccde-463c-abd9-f2c67961251a.yaml
-./poc/java/exposed-alps-spring-7285.yaml
+./poc/java/exposed-alps-spring-2.yaml
 ./poc/java/exposed-struts.yaml
 ./poc/java/facemeeting-struts2-rce.yaml
 ./poc/java/fastspring-2c13d2bd3b17da87e15b2429f2a85187.yaml
@@ -290153,8 +290149,10 @@
 ./poc/java/java-cim.yaml
 ./poc/java/java-ftp-proxy-detect.yaml
 ./poc/java/java-melody-exposed-2.yaml
-./poc/java/java-melody-exposed-8221.yaml
+./poc/java/java-melody-exposed-8222.yaml
+./poc/java/java-melody-exposed.yaml
 ./poc/java/java-melody-exposed_1.yaml
+./poc/java/java-melody-exposed_3.yaml
 ./poc/java/java-melody-stat.yaml
 ./poc/java/java-melody-xss-8225.yaml
 ./poc/java/java-melody-xss-8225_1.yaml
@@ -290581,6 +290579,7 @@
 ./poc/java/springboot-heapdump-10462.yaml
 ./poc/java/springboot-heapdump-10463.yaml
 ./poc/java/springboot-heapdump-10464.yaml
+./poc/java/springboot-heapdump-10465.yaml
 ./poc/java/springboot-heapdump-2.yaml
 ./poc/java/springboot-heapdump-v2.yaml
 ./poc/java/springboot-heapdump.yaml
@@ -290811,7 +290810,6 @@
 ./poc/java/tomcat-exposed-docs.yaml
 ./poc/java/tomcat-exposed-docs_2_1.yaml
 ./poc/java/tomcat-exposed-docs_4.yaml
-./poc/java/tomcat-exposed.yaml
 ./poc/java/tomcat-found.yaml
 ./poc/java/tomcat-manager-bruteforce.yaml
 ./poc/java/tomcat-manager-bruteforce_2.yaml
@@ -390372,6 +390370,7 @@
 ./poc/other/uniconsent-cmp.yaml
 ./poc/other/uniconsent-cmp_1.yaml
 ./poc/other/uniconsent_cmp-19c9cf3e-553b-4cbd-9f2c-803e188a2581.yaml
+./poc/other/unifi-create-user.yaml
 ./poc/other/unifi-os-panel.yaml
 ./poc/other/unifi-os-panel_1.yaml
 ./poc/other/unifi-panel.yaml
@@ -400469,12 +400468,14 @@
 ./poc/python/django-debug-detect_2.yaml
 ./poc/python/django-debug-enable.yaml
 ./poc/python/django-debug-enabled.yaml
-./poc/python/django-debug-exposure-7028.yaml
+./poc/python/django-debug-exposed-404.yaml
 ./poc/python/django-debug-exposure-7029.yaml
 ./poc/python/django-debug-exposure-7029_1.yaml
 ./poc/python/django-debug-exposure-7030.yaml
+./poc/python/django-debug-exposure-7030_3.yaml
 ./poc/python/django-debug-exposure-7031_3.yaml
-./poc/python/django-debug-exposure.yaml
+./poc/python/django-debug-exposure_2.yaml
+./poc/python/django-debug-exposure_4.yaml
 ./poc/python/django-debug-toolbar.yaml
 ./poc/python/django-debug-v2.yaml
 ./poc/python/django-debug.yaml
@@ -400508,6 +400509,7 @@
 ./poc/python/django_3.yaml
 ./poc/python/django_cms_1.yaml
 ./poc/python/djangoapi.yaml
+./poc/python/djangodebug-220331-222254.yaml
 ./poc/python/djangodebug.yaml
 ./poc/python/djangodebug_1.yaml
 ./poc/python/flask-detect.yaml
@@ -403952,11 +403954,11 @@
 ./poc/remote_code_execution/forcepoint-applicance_7.yaml
 ./poc/remote_code_execution/forcepoint-websense-email-security-gateway.yaml
 ./poc/remote_code_execution/forcepoint-websense-email-security-gateway_3.yaml
-./poc/remote_code_execution/forcepoint.yaml
 ./poc/remote_code_execution/forcepoint_2.yaml
 ./poc/remote_code_execution/forcepoint_3.yaml
 ./poc/remote_code_execution/forcepoint_4.yaml
 ./poc/remote_code_execution/forcepoint_6.yaml
+./poc/remote_code_execution/forcepoint_7.yaml
 ./poc/remote_code_execution/forcepoint_9.yaml
 ./poc/remote_code_execution/fortiportal-log4j-rce.yaml
 ./poc/remote_code_execution/fortiportal-log4j-rce_2.yaml
