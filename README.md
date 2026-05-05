@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2026-05-04 05:43`
+> **当前项目 POC 更新时间：**`2026-05-05 05:20`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -16,7 +16,7 @@
 | 6 | tech | 18291 | wordpress | 1983 | unknown | 101 |
 | 7 | detect | 17522 | microsoft | 1655 | hight | 15 |
 | 8 | production | 16105 | detect | 1405 | meduim | 14 |
-| 9 | service | 13827 | sql_injection | 1029 | informative | 8 |
+| 9 | service | 13827 | sql_injection | 1036 | informative | 8 |
 | 10 | candidate | 13526 | social | 732 | cretical | 2 |
 
 **81 个目录，44572 个文件**
