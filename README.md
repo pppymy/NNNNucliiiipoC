@@ -1,6 +1,6 @@
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2026-07-22 05:14`
+> **当前项目 POC 更新时间：**`2026-07-23 05:16`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
@@ -8,16 +8,16 @@
 | 2 | wordpress | 37551 | other | 27545 | info | 19851 |
 | 3 | wp-plugin | 34858 | auth | 1867 | high | 14002 |
 | 4 | medium | 16352 | wordpress | 1396 | low | 10889 |
-| 1 | cve | 88113 | other | 55398 | medium | 36833 |
-| 2 | wordpress | 81582 | cve | 42312 | low | 30063 |
-| 3 | wp-plugin | 74089 | sql | 6529 | info | 27947 |
-| 4 | candidate | 34578 | wordpress | 5061 | high | 25500 |
-| 5 | medium | 27964 | remote_code_execution | 3830 | critical | 14878 |
-| 6 | low | 27844 | auth | 3662 | unknown | 136 |
-| 7 | tech | 18892 | detect | 2246 | meduim | 18 |
-| 8 | detect | 18015 | microsoft | 1383 | informative | 17 |
-| 9 | high | 14509 | api | 1365 | hight | 15 |
-| 10 | service | 13838 | sql_injection | 1359 | cretical | 4 |
+| 1 | cve | 88149 | other | 55323 | medium | 36838 |
+| 2 | wordpress | 81583 | cve | 42358 | low | 30072 |
+| 3 | wp-plugin | 74096 | sql | 6529 | info | 27976 |
+| 4 | candidate | 34586 | wordpress | 5061 | high | 25539 |
+| 5 | medium | 27964 | remote_code_execution | 3834 | critical | 14903 |
+| 6 | low | 27847 | auth | 3679 | unknown | 136 |
+| 7 | tech | 18922 | detect | 2247 | meduim | 18 |
+| 8 | detect | 18042 | microsoft | 1381 | informative | 17 |
+| 9 | high | 14512 | api | 1368 | hight | 15 |
+| 10 | service | 13839 | sql_injection | 1358 | cretical | 4 |
 
 **81 个目录，44572 个文件**
 
