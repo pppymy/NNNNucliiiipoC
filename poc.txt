@@ -14912,7 +14912,7 @@
 ./poc/backup/backupwordpress.yaml
 ./poc/backup/backupwordpress_1.yaml
 ./poc/backup/bears-backup.yaml
-./poc/backup/bears_backup-81b44abb-6d30-4930-b68b-9a04d93f5169_1.yaml
+./poc/backup/bears_backup-81b44abb-6d30-4930-b68b-9a04d93f5169.yaml
 ./poc/backup/blogvault-real-time-backup-23a01cb6504ec60b3d17850ede58f59d.yaml
 ./poc/backup/blogvault-real-time-backup-77b677151a40237ae58691d865e46625.yaml
 ./poc/backup/blogvault-real-time-backup-d41d8cd98f00b204e9800998ecf8427e.yaml
@@ -94578,6 +94578,7 @@
 ./poc/cve/CVE-2023-39007_1.yaml
 ./poc/cve/CVE-2023-39007_2.yaml
 ./poc/cve/CVE-2023-39008.yaml
+./poc/cve/CVE-2023-39024.yaml
 ./poc/cve/CVE-2023-39024_1.yaml
 ./poc/cve/CVE-2023-39026.yaml
 ./poc/cve/CVE-2023-39026_1.yaml
@@ -110843,7 +110844,9 @@
 ./poc/cve/CVE-2024-2311.yaml
 ./poc/cve/CVE-2024-23113.yaml
 ./poc/cve/CVE-2024-2311_2.yaml
+./poc/cve/CVE-2024-23163.yaml
 ./poc/cve/CVE-2024-23163_1.yaml
+./poc/cve/CVE-2024-23167.yaml
 ./poc/cve/CVE-2024-23167_1.yaml
 ./poc/cve/CVE-2024-23167_3.yaml
 ./poc/cve/CVE-2024-2322-c367babef5ad75105ac4cd9a0acc0278.yaml
@@ -158221,7 +158224,7 @@
 ./poc/drupal/drupal_module-entity_browser_block-access-bypass_1.yaml
 ./poc/drupal/drupal_module-entity_browser_block-access-bypass_2.yaml
 ./poc/drupal/drupal_module-entity_delete-multiple-vulnerabilities_1.yaml
-./poc/drupal/drupal_module-entity_delete_log-access-bypass_1.yaml
+./poc/drupal/drupal_module-entity_delete_log-access-bypass.yaml
 ./poc/drupal/drupal_module-entity_delete_log-access-bypass_2.yaml
 ./poc/drupal/drupal_module-entity_embed-cross-site-request-forgery.yaml
 ./poc/drupal/drupal_module-entity_form_steps-cross-site-scripting_1.yaml
@@ -158235,7 +158238,7 @@
 ./poc/drupal/drupal_module-exif-access-bypass.yaml
 ./poc/drupal/drupal_module-exif-remote-code-execution.yaml
 ./poc/drupal/drupal_module-exif-remote-code-execution_2.yaml
-./poc/drupal/drupal_module-existing_values_autocomplete_widget-access-bypass_1.yaml
+./poc/drupal/drupal_module-existing_values_autocomplete_widget-access-bypass.yaml
 ./poc/drupal/drupal_module-expandable_formatter-cross-site-scripting.yaml
 ./poc/drupal/drupal_module-expandable_formatter-cross-site-scripting_2.yaml
 ./poc/drupal/drupal_module-expire_reset_pass_link-unsupported.yaml
@@ -160541,6 +160544,7 @@
 ./poc/ftp/wd-nas-ftp-download-rce.yaml
 ./poc/ftp/web-ftp-detect-11135.yaml
 ./poc/ftp/web-ftp-detect-11136.yaml
+./poc/ftp/web-ftp-detect-11137.yaml
 ./poc/ftp/web-ftp-detect-11138.yaml
 ./poc/ftp/web-ftp-detect.yaml
 ./poc/ftp/web-ftp-detect_1.yaml
@@ -287614,7 +287618,7 @@
 ./poc/web/edusoho-open-source-web-classroom-.yaml
 ./poc/web/edusoho-open-source-web-classroom.yaml
 ./poc/web/efi-webtools.yaml
-./poc/web/ehole-web-fingerprints_1.yaml
+./poc/web/ehole-web-fingerprints.yaml
 ./poc/web/element-web-detect_1.yaml
 ./poc/web/embedthis-appweb.yaml
 ./poc/web/emc-documentum-webtop.yaml
@@ -288599,7 +288603,6 @@
 ./poc/web/web-file-manager.yaml
 ./poc/web/web-file-manager_1.yaml
 ./poc/web/web-framework-detect.yaml
-./poc/web/web-ftp-detect-11137.yaml
 ./poc/web/web-ftp-detect-11138_1.yaml
 ./poc/web/web-inf-disclosure.yaml
 ./poc/web/web-inf-web-xml-disclosure.yaml
