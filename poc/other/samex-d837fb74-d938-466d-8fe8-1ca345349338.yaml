@@ -1,31 +1,31 @@
-id: woffice-18f7664b-6e2b-4422-8d6e-5bc4e6611069
+id: samex-d837fb74-d938-466d-8fe8-1ca345349338
 
 info:
   name: >
-    Woffice CRM <= 5.4.32 - Missing Authorization
+    Samex - Clean, Minimal Shop WooCommerce WordPress <= 2.5 - Reflected Cross-Site Scripting
   author: topscoder
-  severity: high
+  severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/18f7664b-6e2b-4422-8d6e-5bc4e6611069?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/d837fb74-d938-466d-8fe8-1ca345349338?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/themes/woffice/"
-    google-query: inurl:"/wp-content/themes/woffice/"
-    shodan-query: 'http.html:"wp-content/themes/woffice/"'
-  tags: cve,wordpress,wp-theme,woffice,high,candidate
+    fofa-query: "wp-content/themes/samex/"
+    google-query: inurl:"/wp-content/themes/samex/"
+    shodan-query: 'http.html:"wp-content/themes/samex/"'
+  tags: cve,wordpress,wp-theme,samex,medium,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/themes/woffice/style.css"
+      - "{{BaseURL}}/wp-content/themes/samex/style.css"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "woffice"
+          - "samex"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 5.4.32')
+          - compare_versions(version, '<= 2.5')
