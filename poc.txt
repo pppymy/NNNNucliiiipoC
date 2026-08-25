@@ -142751,6 +142751,7 @@
 ./poc/cve/CVE-2026-4090-inquiry_cart-772e9b2b-b2d5-4950-804b-d0914004710c.yaml
 ./poc/cve/CVE-2026-4091-open_brain-93df6480-9bb1-4f5d-bb39-ff1a01d739cf.yaml
 ./poc/cve/CVE-2026-4100-paid_memberships_pro-5b333a3d-e416-42aa-9722-5406df0a64b3.yaml
+./poc/cve/CVE-2026-41042.yaml
 ./poc/cve/CVE-2026-4106-ht_mega_for_elementor-e533f20e-825b-443c-93b2-cf451284ae96.yaml
 ./poc/cve/CVE-2026-4106.yaml
 ./poc/cve/CVE-2026-4106_1.yaml
@@ -166722,7 +166723,7 @@
 ./poc/other/191218699_1.yaml
 ./poc/other/1912527454_1.yaml
 ./poc/other/1912527454_2.yaml
-./poc/other/1913107877_2.yaml
+./poc/other/1913107877_1.yaml
 ./poc/other/1913604982.yaml
 ./poc/other/1913930949.yaml
 ./poc/other/1914402596.yaml
@@ -212409,6 +212410,7 @@
 ./poc/other/kopatheme-aa16ab9f-4fb1-43de-bfbb-bd6caf6a68dc.yaml
 ./poc/other/kopatheme-aecf92ba128e924b74430328c78b4a69.yaml
 ./poc/other/kopatheme.yaml
+./poc/other/kopia.yaml
 ./poc/other/korea-sns-d2347b23afcb3c3e5e83785525a060c3.yaml
 ./poc/other/korea-sns.yaml
 ./poc/other/korea_sns-185d380e-7e23-4260-bdeb-e88c8625f690.yaml
@@ -265539,7 +265541,7 @@
 ./poc/sql/api-networksdb.yaml
 ./poc/sql/api-networksdb_2.yaml
 ./poc/sql/api2cart-bridge-connector-9310170fdba6634de0183ef1f76c24bb.yaml
-./poc/sql/api2cart_bridge_connector-5bf6d60f-57ac-4cbc-895f-a7db548cbf67_1.yaml
+./poc/sql/api2cart_bridge_connector-5bf6d60f-57ac-4cbc-895f-a7db548cbf67.yaml
 ./poc/sql/aplazo_payment_gateway-97b327cc-7a72-4cc3-a4db-a693469f6917.yaml
 ./poc/sql/apmarketplace-sqlinj_1.yaml
 ./poc/sql/apollo-86015938-0b07-4116-9752-b45db148fd44.yaml
