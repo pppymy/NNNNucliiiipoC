@@ -20,17 +20,17 @@ http:
   - part: body
     type: word
     words:
-    - miniorange-2-factor-authentication
+    - task-manager-pro
   - dsl:
-    - compare_versions(version, '<= 5.5.82')
+    - compare_versions(version, '<= 1.3.1')
     type: dsl
   matchers-condition: and
   max-redirects: 3
   method: GET
   path:
-  - '{{BaseURL}}/wp-content/plugins/miniorange-2-factor-authentication/readme.txt'
+  - '{{BaseURL}}/wp-content/plugins/task-manager-pro/readme.txt'
   redirects: true
-id: miniorange-2-factor-authentication-425e9b77a3794afb9bf171ee7e897722
+id: task-manager-pro-91788bedbd30912a7420b6af67263d76
 info:
   author: topscoder
   classification:
@@ -39,14 +39,14 @@ info:
     cvss-score: null
   description: ''
   metadata:
-    fofa-query: wp-content/plugins/miniorange-2-factor-authentication/
-    google-query: inurl:"/wp-content/plugins/miniorange-2-factor-authentication/"
+    fofa-query: wp-content/plugins/task-manager-pro/
+    google-query: inurl:"/wp-content/plugins/task-manager-pro/"
     shodan-query: 'vuln:'
-  name: 'miniOrange''s Google Authenticator  <= 5.5.82 - Missing Authorization
+  name: 'Task Manager Pro <= 1.3.1 - Blind SQL Injection
 
     '
   reference:
   - https://github.com/topscoder/nuclei-wordfence-cve
-  - https://www.wordfence.com/threat-intel/vulnerabilities/id/52a03c45-1d65-43aa-b30f-13698019e05f?source=api-scan
-  severity: high
-  tags: cve,wordpress,wp-plugin,miniorange-2-factor-authentication,high
+  - https://www.wordfence.com/threat-intel/vulnerabilities/id/aa6b63bc-6e5f-498e-83e1-45e8e6c72df4?source=api-scan
+  severity: critical
+  tags: cve,wordpress,wp-plugin,task-manager-pro,critical
