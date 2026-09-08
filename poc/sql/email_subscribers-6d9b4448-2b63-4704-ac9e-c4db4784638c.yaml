@@ -1,15 +1,15 @@
-id: email_subscribers-a2e70691-4de9-4b12-babf-bebe267a780b
+id: email_subscribers-6d9b4448-2b63-4704-ac9e-c4db4784638c
 
 info:
   name: >
-    Email Subscribers & Newsletters <= 5.9.27 - Missing Authorization to Authenticated (Contributor+) Settings Modification via ig_es_handle_request AJAX Action
+    Email Subscribers & Newsletters <= 5.9.27 - Unauthenticated Arbitrary Shortcode Execution via Subscriber Name Field
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/a2e70691-4de9-4b12-babf-bebe267a780b?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/6d9b4448-2b63-4704-ac9e-c4db4784638c?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
