@@ -156884,7 +156884,9 @@
 ./poc/debug/django-debug-detect-7024_1.yaml
 ./poc/debug/django-debug-detect-7025.yaml
 ./poc/debug/django-debug-detect-7026.yaml
+./poc/debug/django-debug-detect-7027.yaml
 ./poc/debug/django-debug-detect.yaml
+./poc/debug/django-debug-detect_1.yaml
 ./poc/debug/django-debug-enable.yaml
 ./poc/debug/django-debug-enabled.yaml
 ./poc/debug/django-debug-exposed-404.yaml
@@ -156932,6 +156934,8 @@
 ./poc/debug/go-pprof-debug.yaml
 ./poc/debug/imageresizer-debug-exposure.yaml
 ./poc/debug/istio-pilot-debug-anonymous.yaml
+./poc/debug/jboss-seam-debug-page-8238.yaml
+./poc/debug/jboss-seam-debug-page-8239.yaml
 ./poc/debug/lanhai-jifei-debug-rce.yaml
 ./poc/debug/lanhaizhuoyue-debug-rce.yaml
 ./poc/debug/laravel-debug-405.yaml
@@ -156989,6 +156993,7 @@
 ./poc/debug/ssp_debugging-66f29499-1522-43cd-af78-9b734c66af8c.yaml
 ./poc/debug/ssrf-proxy-header-debug.yaml
 ./poc/debug/struts-debug-mode-10560.yaml
+./poc/debug/struts-debug-mode.yaml
 ./poc/debug/symfony-debug-pro.yaml
 ./poc/debug/symfony-debug.yaml
 ./poc/debug/symfony-debug_1.yaml
@@ -157009,6 +157014,7 @@
 ./poc/debug/wamp-xdebug-detect-11101.yaml
 ./poc/debug/wamp-xdebug-detect-11102.yaml
 ./poc/debug/wamp-xdebug-detect-11103.yaml
+./poc/debug/wamp-xdebug-detect-11104.yaml
 ./poc/debug/wamp-xdebug-detect.yaml
 ./poc/debug/wamp-xdebug.yaml
 ./poc/debug/webview-debugging-enabled.yaml
@@ -158321,7 +158327,6 @@
 ./poc/detect/detect-sentry.yaml
 ./poc/detect/detect-sentry_4.yaml
 ./poc/detect/detect-sentry_7.yaml
-./poc/detect/detect-springboot-actuator.yaml
 ./poc/detect/detect-ssl-issuer_2.yaml
 ./poc/detect/detect-ssl-issuer_3.yaml
 ./poc/detect/detect-ssl-issuer_4.yaml
@@ -158372,8 +158377,6 @@
 ./poc/detect/discord-invite-detect_1.yaml
 ./poc/detect/divi-form-builder-detect.yaml
 ./poc/detect/dizquetv-detect_1.yaml
-./poc/detect/django-debug-detect-7027.yaml
-./poc/detect/django-debug-detect_1.yaml
 ./poc/detect/django-detect.yaml
 ./poc/detect/dkim-record-detect.yaml
 ./poc/detect/dkim-record-detect_1.yaml
@@ -159044,7 +159047,6 @@
 ./poc/detect/jaspersoft-detect-8220.yaml
 ./poc/detect/jaspersoft-detect.yaml
 ./poc/detect/jaspersoft-detect_4.yaml
-./poc/detect/java-rmi-detect-8228.yaml
 ./poc/detect/jeecg-boot-detect-8247.yaml
 ./poc/detect/jeecg-boot-detect-8248_2.yaml
 ./poc/detect/jeecg-boot-detect.yaml
@@ -159104,7 +159106,6 @@
 ./poc/detect/joomla-detect.yaml
 ./poc/detect/jquery-malware-detect.yaml
 ./poc/detect/js-libraries-detect.yaml
-./poc/detect/jsf-detect.yaml
 ./poc/detect/juicyinfo-detect.yaml
 ./poc/detect/jway-products-detect.yaml
 ./poc/detect/jway-products-detect_2.yaml
@@ -159949,7 +159950,6 @@
 ./poc/detect/sap-igs-detect-10040.yaml
 ./poc/detect/sap-igs-detect-10041.yaml
 ./poc/detect/sap-igs-detect.yaml
-./poc/detect/sap-netweaver-as-java-detect.yaml
 ./poc/detect/sap-netweaver-detect-10042.yaml
 ./poc/detect/sap-netweaver-detect-10043.yaml
 ./poc/detect/sap-netweaver-detect-10044.yaml
@@ -160358,7 +160358,6 @@
 ./poc/detect/tinyproxy-detect.yaml
 ./poc/detect/tlsa-record-detect.yaml
 ./poc/detect/tlsa-record-detect_1.yaml
-./poc/detect/tomcat-detect-10793.yaml
 ./poc/detect/tool-detect.yaml
 ./poc/detect/tool-detect_2.yaml
 ./poc/detect/tools4ever-helloid-detect.yaml
@@ -160403,6 +160402,7 @@
 ./poc/detect/tyk-gateway-detect.yaml
 ./poc/detect/tyk-gateway-detect_1.yaml
 ./poc/detect/typo3-detect.yaml
+./poc/detect/unauth-java-message-broker-detect_6.yaml
 ./poc/detect/unauthorized-brother-access-detect.yaml
 ./poc/detect/unauthorized-brother-access-detect_1.yaml
 ./poc/detect/unauthorized-puppet-node-manager-detect-10958.yaml
@@ -160492,7 +160492,6 @@
 ./poc/detect/waf-detect_5.yaml
 ./poc/detect/waf-detect_8.yaml
 ./poc/detect/wagtail-cms-detect.yaml
-./poc/detect/wamp-xdebug-detect-11104.yaml
 ./poc/detect/wavecdn-detection.yaml
 ./poc/detect/wazuh-detect-11110.yaml
 ./poc/detect/wazuh-detect-11111.yaml
@@ -161436,7 +161435,7 @@
 ./poc/drupal/drupal_module-megamenu_framework-unsupported_2.yaml
 ./poc/drupal/drupal_module-menu_export-access-bypass.yaml
 ./poc/drupal/drupal_module-menu_export-access-bypass_2.yaml
-./poc/drupal/drupal_module-menu_item_extras-cross-site-request-forgery.yaml
+./poc/drupal/drupal_module-menu_item_extras-cross-site-request-forgery_1.yaml
 ./poc/drupal/drupal_module-metatag-information-disclosure.yaml
 ./poc/drupal/drupal_module-metatag-remote-code-execution.yaml
 ./poc/drupal/drupal_module-metatags_quick-cross-site-scripting.yaml
@@ -166797,6 +166796,7 @@
 ./poc/java/default-tomcat-page.yaml
 ./poc/java/default-websphere-liberty.yaml
 ./poc/java/default-websphere-liberty_2.yaml
+./poc/java/detect-springboot-actuator.yaml
 ./poc/java/detect-springboot-actuator_1.yaml
 ./poc/java/e-cology-springframework-directory-traversal.yaml
 ./poc/java/e-cology-springframework-directory-traversal_2.yaml
@@ -166868,6 +166868,7 @@
 ./poc/java/java-message-service.yaml
 ./poc/java/java-object.yaml
 ./poc/java/java-rmi-detect-8227.yaml
+./poc/java/java-rmi-detect-8228.yaml
 ./poc/java/java-rmi-detect.yaml
 ./poc/java/java-rmi-detect_1.yaml
 ./poc/java/java-rmi.yaml
@@ -166912,8 +166913,6 @@
 ./poc/java/jboss-juddi-panel.yaml
 ./poc/java/jboss-juddi.yaml
 ./poc/java/jboss-remoting.yaml
-./poc/java/jboss-seam-debug-page-8238.yaml
-./poc/java/jboss-seam-debug-page-8239.yaml
 ./poc/java/jboss-seam-debug-page-8240.yaml
 ./poc/java/jboss-seam-debug-page.yaml
 ./poc/java/jboss-sensitive-disclose.yaml
@@ -166959,6 +166958,7 @@
 ./poc/java/jinjava-ssti.yaml
 ./poc/java/jolokia-tomcat-creds-leak.yaml
 ./poc/java/jolokia-tomcat-creds-leak_1.yaml
+./poc/java/jsf-detect.yaml
 ./poc/java/jsf-detection-8396.yaml
 ./poc/java/jsf-detection-8397.yaml
 ./poc/java/jsf-detection-8398.yaml
@@ -167026,6 +167026,7 @@
 ./poc/java/rce-via-java-deserialization_1.yaml
 ./poc/java/rce-via-java-deserialization_4.yaml
 ./poc/java/rxss-apache-tomcat.yaml
+./poc/java/sap-netweaver-as-java-detect.yaml
 ./poc/java/sap-netweaver-j2ee.yaml
 ./poc/java/scan-ssti-java-getenv.yaml
 ./poc/java/scheduledtasks-spring-boot.yaml
@@ -167337,7 +167338,6 @@
 ./poc/java/springer.yaml
 ./poc/java/struts-debug-mode-10559.yaml
 ./poc/java/struts-debug-mode-10561.yaml
-./poc/java/struts-debug-mode.yaml
 ./poc/java/struts-ognl-console.yaml
 ./poc/java/struts-problem-report-10562.yaml
 ./poc/java/struts-problem-report-10563.yaml
@@ -167374,6 +167374,7 @@
 ./poc/java/tomcat-default-login_4.yaml
 ./poc/java/tomcat-default-manager.yaml
 ./poc/java/tomcat-detect-10792.yaml
+./poc/java/tomcat-detect-10793.yaml
 ./poc/java/tomcat-detect-10794.yaml
 ./poc/java/tomcat-detect-10795.yaml
 ./poc/java/tomcat-detect.yaml
@@ -167505,7 +167506,6 @@
 ./poc/java/tomcat.yaml
 ./poc/java/tomcat_jk_connector.yaml
 ./poc/java/unauth-java-message-broker-detect_25.yaml
-./poc/java/unauth-java-message-broker-detect_6.yaml
 ./poc/java/wanhu-ezoffice-documentedit-jsp-sqli.yaml
 ./poc/java/wanhu-ezoffice-download-ftp-jsp-filedownload.yaml
 ./poc/java/wanhu-ezoffice-download-jsp-filedownload.yaml
