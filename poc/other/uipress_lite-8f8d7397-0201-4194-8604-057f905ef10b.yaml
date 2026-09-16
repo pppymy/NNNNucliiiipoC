@@ -1,15 +1,15 @@
-id: uipress_lite-d8aa06eb-774a-4cd9-bd35-2d6409475696
+id: uipress_lite-8f8d7397-0201-4194-8604-057f905ef10b
 
 info:
   name: >
-    UiPress lite <= 3.5.08 - Missing Authorization to Authenticated (Subscriber+) Sensitive Information Exposure
+    UiPress lite | Effortless custom dashboards, admin themes and pages <= 3.5.08 - Missing Authorization to Authenticated (Subscriber+) Plugin Settings Update
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/d8aa06eb-774a-4cd9-bd35-2d6409475696?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/8f8d7397-0201-4194-8604-057f905ef10b?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
