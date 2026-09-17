@@ -1,15 +1,15 @@
-id: truebooker_appointment_booking-be8afa0c-af65-46d7-af07-de67353eddb5
+id: truebooker_appointment_booking-3a61ddbc-9118-4cad-a639-7822606a3181
 
 info:
   name: >
-    TrueBooker – Appointment Booking and Scheduler System <= 1.2.3 - Unauthenticated Privilege Escalation
+    TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary User Email Modification via 'admin_addcustomer' AJAX Action
   author: topscoder
-  severity: low
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/be8afa0c-af65-46d7-af07-de67353eddb5?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/3a61ddbc-9118-4cad-a639-7822606a3181?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
@@ -18,7 +18,7 @@ info:
     fofa-query: "wp-content/plugins/truebooker-appointment-booking/"
     google-query: inurl:"/wp-content/plugins/truebooker-appointment-booking/"
     shodan-query: 'http.html:"wp-content/plugins/truebooker-appointment-booking/"'
-  tags: cve,wordpress,wp-plugin,truebooker-appointment-booking,low,candidate
+  tags: cve,wordpress,wp-plugin,truebooker-appointment-booking,high,candidate
 
 http:
   - method: GET

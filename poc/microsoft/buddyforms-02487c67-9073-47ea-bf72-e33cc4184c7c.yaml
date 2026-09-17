@@ -1,15 +1,15 @@
-id: buddyforms-c84cf8f1-ff13-47e9-bf9d-a6f638af0492
+id: buddyforms-02487c67-9073-47ea-bf72-e33cc4184c7c
 
 info:
   name: >
-    BuddyForms <= 2.9.0 - Missing Authorization
+    Post Form – Registration Form – Profile Form for User Profiles – Frontend Content Forms for User Submissions (UGC) <= 2.9.0 - Missing Authorization
   author: topscoder
   severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/c84cf8f1-ff13-47e9-bf9d-a6f638af0492?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/02487c67-9073-47ea-bf72-e33cc4184c7c?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 

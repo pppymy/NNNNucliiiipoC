@@ -1,31 +1,31 @@
-id: bbpress-310ad533-7f86-4fbc-93de-a742c33a6a51
+id: wp_docs-bbcefb55-f712-47a5-885a-b0feceaf20fd
 
 info:
   name: >
-    bbPress <= 2.6.14 - Missing Authorization
+    WP Docs <= 2.3.3 - Authenticated (Subscriber+) Stored Cross-Site Scripting
   author: topscoder
-  severity: high
+  severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/310ad533-7f86-4fbc-93de-a742c33a6a51?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/bbcefb55-f712-47a5-885a-b0feceaf20fd?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/bbpress/"
-    google-query: inurl:"/wp-content/plugins/bbpress/"
-    shodan-query: 'http.html:"wp-content/plugins/bbpress/"'
-  tags: cve,wordpress,wp-plugin,bbpress,high,candidate
+    fofa-query: "wp-content/plugins/wp-docs/"
+    google-query: inurl:"/wp-content/plugins/wp-docs/"
+    shodan-query: 'http.html:"wp-content/plugins/wp-docs/"'
+  tags: cve,wordpress,wp-plugin,wp-docs,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/bbpress/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/wp-docs/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "bbpress"
+          - "wp-docs"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 2.6.14')
+          - compare_versions(version, '<= 2.3.3')

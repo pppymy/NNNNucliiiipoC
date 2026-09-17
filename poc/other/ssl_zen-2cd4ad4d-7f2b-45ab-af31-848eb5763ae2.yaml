@@ -1,31 +1,31 @@
-id: wise_chat-1379bd6a-529e-42b9-bc01-8373b314c771
+id: ssl_zen-2cd4ad4d-7f2b-45ab-af31-848eb5763ae2
 
 info:
   name: >
-    Wise Chat <= 3.4 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    SSL Zen — SSL Certificate Installer & HTTPS Redirects < 4.7.40 - Authenticated (Subscriber+) Information Exposure
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/1379bd6a-529e-42b9-bc01-8373b314c771?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/2cd4ad4d-7f2b-45ab-af31-848eb5763ae2?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/wise-chat/"
-    google-query: inurl:"/wp-content/plugins/wise-chat/"
-    shodan-query: 'http.html:"wp-content/plugins/wise-chat/"'
-  tags: cve,wordpress,wp-plugin,wise-chat,low,candidate
+    fofa-query: "wp-content/plugins/ssl-zen/"
+    google-query: inurl:"/wp-content/plugins/ssl-zen/"
+    shodan-query: 'http.html:"wp-content/plugins/ssl-zen/"'
+  tags: cve,wordpress,wp-plugin,ssl-zen,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/wise-chat/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/ssl-zen/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "wise-chat"
+          - "ssl-zen"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 3.4')
+          - compare_versions(version, '< 4.7.40')
