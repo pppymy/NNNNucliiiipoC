@@ -1,15 +1,15 @@
-id: magazine_blocks-f6f0991e-7b0c-455b-a67a-dc3cb16103f3
+id: magazine_blocks-34e0862d-55d3-4bc7-ba26-309ef1567e2b
 
 info:
   name: >
-    Magazine Blocks – Blog Designer, Magazine & Newspaper Website Builder, Page Builder with Posts Blocks, Post Grid <= 1.8.6 - Authenticated (Contributor+) Stored Cross-Site Scripting
+    Magazine Blocks <= 1.8.6 - Authenticated (Contributor+) Stored Cross-Site Scripting via 'clientId' Block Attribute
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/f6f0991e-7b0c-455b-a67a-dc3cb16103f3?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/34e0862d-55d3-4bc7-ba26-309ef1567e2b?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 

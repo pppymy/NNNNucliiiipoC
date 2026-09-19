@@ -1,15 +1,15 @@
-id: ninja_forms-2fda47d8-8e8c-4103-aabb-c70935e13450
+id: ninja_forms-c298c81c-a973-4239-b48a-36b9fbedbe25
 
 info:
   name: >
-    Ninja Forms <= 3.14.9 - Authenticated (Administrator+) SQL Injection via Import File 'settings' Key
+    Ninja Forms <= 3.14.9 - Unauthenticated Arbitrary Shortcode Execution
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/2fda47d8-8e8c-4103-aabb-c70935e13450?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/c298c81c-a973-4239-b48a-36b9fbedbe25?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 

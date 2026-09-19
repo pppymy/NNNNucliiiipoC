@@ -1,31 +1,31 @@
-id: clearfy-73a5058c-74e2-419d-8034-d742cb8816ac
+id: softmarket-336675c3-b397-42c5-85b0-5a38e1d7bc92
 
 info:
   name: >
-    Clearfy <= 2.4.2 - Authenticated (Administrator+) PHP Object Injection
+    SoftMarket <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/73a5058c-74e2-419d-8034-d742cb8816ac?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/336675c3-b397-42c5-85b0-5a38e1d7bc92?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/clearfy/"
-    google-query: inurl:"/wp-content/plugins/clearfy/"
-    shodan-query: 'http.html:"wp-content/plugins/clearfy/"'
-  tags: cve,wordpress,wp-plugin,clearfy,low,candidate
+    fofa-query: "wp-content/plugins/softmarket/"
+    google-query: inurl:"/wp-content/plugins/softmarket/"
+    shodan-query: 'http.html:"wp-content/plugins/softmarket/"'
+  tags: cve,wordpress,wp-plugin,softmarket,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/clearfy/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/softmarket/readme.txt"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "clearfy"
+          - "softmarket"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 2.4.2')
+          - compare_versions(version, '<= 1.0.0')

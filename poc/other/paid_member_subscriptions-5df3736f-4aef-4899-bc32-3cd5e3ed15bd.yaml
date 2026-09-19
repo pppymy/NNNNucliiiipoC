@@ -1,15 +1,15 @@
-id: paid_member_subscriptions-fb7b1dda-6758-4ba7-96b8-8fc8327b9992
+id: paid_member_subscriptions-5df3736f-4aef-4899-bc32-3cd5e3ed15bd
 
 info:
   name: >
-    Paid Member Subscriptions <= 3.0.6 - Insecure Direct Object Reference to Authenticated (Subscriber+) Payment Data Disclosure
+    Paid Member Subscriptions <= 3.0.6 - Unauthenticated Information Exposure
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/fb7b1dda-6758-4ba7-96b8-8fc8327b9992?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/5df3736f-4aef-4899-bc32-3cd5e3ed15bd?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
