@@ -1,31 +1,31 @@
-id: drift-93b53241-6556-4a67-97e6-ea30f3c4ef76
+id: yootheme-07c25607-032c-4456-9e67-f02d2627eab3
 
 info:
   name: >
-    Drift <= 1.6.0 - Authenticated  (Contributor+) Stored Cross-Site Scripting via Post Title
+    YOOtheme Pro <= 5.0.34 - Authenticated (Author+) Stored Cross-Site Scripting
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/93b53241-6556-4a67-97e6-ea30f3c4ef76?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/07c25607-032c-4456-9e67-f02d2627eab3?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/themes/drift/"
-    google-query: inurl:"/wp-content/themes/drift/"
-    shodan-query: 'http.html:"wp-content/themes/drift/"'
-  tags: cve,wordpress,wp-theme,drift,low,candidate
+    fofa-query: "wp-content/themes/yootheme/"
+    google-query: inurl:"/wp-content/themes/yootheme/"
+    shodan-query: 'http.html:"wp-content/themes/yootheme/"'
+  tags: cve,wordpress,wp-theme,yootheme,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/themes/drift/style.css"
+      - "{{BaseURL}}/wp-content/themes/yootheme/style.css"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "drift"
+          - "yootheme"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.6.0')
+          - compare_versions(version, '<= 5.0.34')

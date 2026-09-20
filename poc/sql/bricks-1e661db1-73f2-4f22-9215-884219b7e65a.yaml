@@ -1,31 +1,31 @@
-id: drift-93b53241-6556-4a67-97e6-ea30f3c4ef76
+id: bricks-1e661db1-73f2-4f22-9215-884219b7e65a
 
 info:
   name: >
-    Drift <= 1.6.0 - Authenticated  (Contributor+) Stored Cross-Site Scripting via Post Title
+    Bricks Builder <= 2.1.4 - Missing Authorization
   author: topscoder
-  severity: low
+  severity: high
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/93b53241-6556-4a67-97e6-ea30f3c4ef76?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/1e661db1-73f2-4f22-9215-884219b7e65a?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/themes/drift/"
-    google-query: inurl:"/wp-content/themes/drift/"
-    shodan-query: 'http.html:"wp-content/themes/drift/"'
-  tags: cve,wordpress,wp-theme,drift,low,candidate
+    fofa-query: "wp-content/themes/bricks/"
+    google-query: inurl:"/wp-content/themes/bricks/"
+    shodan-query: 'http.html:"wp-content/themes/bricks/"'
+  tags: cve,wordpress,wp-theme,bricks,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/themes/drift/style.css"
+      - "{{BaseURL}}/wp-content/themes/bricks/style.css"
 
     extractors:
       - type: regex
@@ -43,9 +43,9 @@ http:
 
       - type: word
         words:
-          - "drift"
+          - "bricks"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 1.6.0')
+          - compare_versions(version, '<= 2.1.4')
