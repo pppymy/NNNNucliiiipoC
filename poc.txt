@@ -5585,7 +5585,6 @@
 ./poc/auth/fancier_author_box-90706a16-cd71-4040-ab0e-be8649110d3c.yaml
 ./poc/auth/fancier_author_box-90706a16-cd71-4040-ab0e-be8649110d3c_1.yaml
 ./poc/auth/fanwei-byPass-login.yaml
-./poc/auth/fanwei-byPass-login_1.yaml
 ./poc/auth/fanwei-eweaver-pluginviewservlet-unauth.yaml
 ./poc/auth/fanwei-eweaver-pluginviewservlet-unauth_1.yaml
 ./poc/auth/fanwei-login-bypass.yaml
@@ -9544,7 +9543,6 @@
 ./poc/auth/redis-default-logins_4.yaml
 ./poc/auth/redis-missing-auth.yaml
 ./poc/auth/redis-require-auth.yaml
-./poc/auth/redis-require-auth_1.yaml
 ./poc/auth/redis-unauthorized.yaml
 ./poc/auth/redis-weak-credentials.yaml
 ./poc/auth/redis-weak-login.yaml
@@ -14797,7 +14795,6 @@
 ./poc/cisco/cisco-vmanage-login_3.yaml
 ./poc/cisco/cisco-vmanage-login_4.yaml
 ./poc/cisco/cisco-vpn-FileRead.yaml
-./poc/cisco/cisco-vpn-FileRead_1.yaml
 ./poc/cisco/cisco-webex-log4j-rce.yaml
 ./poc/cisco/cisco-webex-log4j-rce_1.yaml
 ./poc/cisco/cisco-webex-log4j-rce_2.yaml
@@ -40019,10 +40016,12 @@
 ./poc/cve/CVE-2015-9366_1.yaml
 ./poc/cve/CVE-2015-9366_2.yaml
 ./poc/cve/CVE-2015-9366_3.yaml
+./poc/cve/CVE-2015-9367-b7b23ccd36ea50bbbfeb7e938609fb45.yaml
 ./poc/cve/CVE-2015-9367-b7b23ccd36ea50bbbfeb7e938609fb45_1.yaml
 ./poc/cve/CVE-2015-9367-exchange_addon_easy_canadian_sales_taxes-8059ea88-55b9-423e-9827-075d0aa90938.yaml
 ./poc/cve/CVE-2015-9367_1.yaml
 ./poc/cve/CVE-2015-9367_2.yaml
+./poc/cve/CVE-2015-9368-4642dd9614a239b15ec4af1e978c358e.yaml
 ./poc/cve/CVE-2015-9368-4642dd9614a239b15ec4af1e978c358e_1.yaml
 ./poc/cve/CVE-2015-9368-exchange_addon_easy_eu_vat_taxes-1d6faee0-716e-4aa9-a841-5231c7aaff21.yaml
 ./poc/cve/CVE-2015-9368.yaml
@@ -76605,6 +76604,7 @@
 ./poc/cve/CVE-2022-40443.yaml
 ./poc/cve/CVE-2022-40443_1.yaml
 ./poc/cve/CVE-2022-40444.yaml
+./poc/cve/CVE-2022-4047-59ef4ab68b01d9030cc470e529c1c00c.yaml
 ./poc/cve/CVE-2022-4047-59ef4ab68b01d9030cc470e529c1c00c_1.yaml
 ./poc/cve/CVE-2022-4047-woo_refund_and_exchange_lite-3871bae4-f954-4692-8af8-1f96f8fcb778.yaml
 ./poc/cve/CVE-2022-4047.yaml
@@ -111042,6 +111042,7 @@
 ./poc/cve/CVE-2024-29813-cartflows-5f75e37d-a94e-4103-b706-5fead24f1f73.yaml
 ./poc/cve/CVE-2024-29813.yaml
 ./poc/cve/CVE-2024-29813_2.yaml
+./poc/cve/CVE-2024-29814-5ac9b72bf0f7f4e392d5788ecc18897d.yaml
 ./poc/cve/CVE-2024-29814-5ac9b72bf0f7f4e392d5788ecc18897d_1.yaml
 ./poc/cve/CVE-2024-29814-exchange_rates_widget-2970bea4-4641-4885-b996-2bf0b848e1ec.yaml
 ./poc/cve/CVE-2024-29814.yaml
@@ -157409,9 +157410,6 @@
 ./poc/debug/soap-ajax-debugshell_2.yaml
 ./poc/debug/ssp_debugging-66f29499-1522-43cd-af78-9b734c66af8c.yaml
 ./poc/debug/ssrf-proxy-header-debug.yaml
-./poc/debug/struts-debug-mode-10559.yaml
-./poc/debug/struts-debug-mode-10561.yaml
-./poc/debug/struts-debug-mode.yaml
 ./poc/debug/symfony-debug-pro.yaml
 ./poc/debug/symfony-debug.yaml
 ./poc/debug/symfony-debug_1.yaml
@@ -158374,6 +158372,7 @@
 ./poc/detect/chevereto-detect.yaml
 ./poc/detect/chevereto-detect_1.yaml
 ./poc/detect/chevereto-detect_2.yaml
+./poc/detect/chisel-detect.yaml
 ./poc/detect/chp-ads-block-detector-17650862b73dff4b34a6315938f6b250.yaml
 ./poc/detect/chp-ads-block-detector-b7efff873ee4bed005e48f45da9d3636.yaml
 ./poc/detect/chp-ads-block-detector-dba98e5ea73e2f1d6a07c9c27a108767.yaml
@@ -158593,11 +158592,10 @@
 ./poc/detect/custom-datapump-source-code-detect.yaml
 ./poc/detect/custom-dom-xss-detect.yaml
 ./poc/detect/custom-dot-git-detect.yaml
+./poc/detect/custom-favicon-detect.yaml
 ./poc/detect/custom-jasper-path-traversal-detect.yaml
-./poc/detect/custom-jetty-server-path-normalization-detect.yaml
 ./poc/detect/custom-logapi-log-detect.yaml
 ./poc/detect/custom-map-view-detect.yaml
-./poc/detect/custom-mapview-jsp-detect.yaml
 ./poc/detect/custom-microsoft-ssrf-detect.yaml
 ./poc/detect/custom-misc-server-detect.yaml
 ./poc/detect/custom-oracle-ebs-ACPV-detect.yaml
@@ -159141,6 +159139,7 @@
 ./poc/detect/gopher-detect_2.yaml
 ./poc/detect/gopher-detection.yaml
 ./poc/detect/gopher-detection_1.yaml
+./poc/detect/gost-detect.yaml
 ./poc/detect/gpon-router-detect.yaml
 ./poc/detect/gpon-router-detection.yaml
 ./poc/detect/gradio-detect.yaml
@@ -159495,7 +159494,6 @@
 ./poc/detect/jenkins-detect.yaml
 ./poc/detect/jenkins-headers-detect.yaml
 ./poc/detect/jenkins-login-detection.yaml
-./poc/detect/jetty-detect.yaml
 ./poc/detect/jhipster-detect.yaml
 ./poc/detect/jira-detect-1.yaml
 ./poc/detect/jira-detect-1_2.yaml
@@ -160429,7 +160427,6 @@
 ./poc/detect/sglang-detect_1.yaml
 ./poc/detect/shibboleth-detect.yaml
 ./poc/detect/shibboleth-detect_1.yaml
-./poc/detect/shiro-detect-10196.yaml
 ./poc/detect/shopizer-detect-1.yaml
 ./poc/detect/shopizer-detect-2.yaml
 ./poc/detect/shopizer-detect.yaml
@@ -160607,7 +160604,6 @@
 ./poc/detect/splunk-favicon-detect.yaml
 ./poc/detect/splunk-hec-detect.yaml
 ./poc/detect/spnego-detect.yaml
-./poc/detect/springboot-detect.yaml
 ./poc/detect/sql-injection-detection.yaml
 ./poc/detect/sql-injection-detector.yaml
 ./poc/detect/sqlcipher-detection.yaml
@@ -160780,7 +160776,6 @@
 ./poc/detect/tinyproxy-detect.yaml
 ./poc/detect/tlsa-record-detect.yaml
 ./poc/detect/tlsa-record-detect_1.yaml
-./poc/detect/tomcat-detect.yaml
 ./poc/detect/tool-detect.yaml
 ./poc/detect/tool-detect_2.yaml
 ./poc/detect/tools4ever-helloid-detect.yaml
@@ -167045,7 +167040,6 @@
 ./poc/java/360deg-javascript-viewer-1a666a18717eab78defd938ae7082351.yaml
 ./poc/java/360deg-javascript-viewer-57266e0e37aca1e5765a93904f337419_2.yaml
 ./poc/java/360deg-javascript-viewer-941c31de17f1220919ae43eaeabe8c4a_1.yaml
-./poc/java/360deg-javascript-viewer.yaml
 ./poc/java/360deg-javascript-viewer_1_1.yaml
 ./poc/java/360deg-javascript-viewer_2.yaml
 ./poc/java/360deg_javascript_viewer-12b4e363-248f-469a-a958-0b1ec5c6e37f.yaml
@@ -167198,8 +167192,10 @@
 ./poc/java/css_javascript_toolbox-ace85b25-251b-4549-8f6e-1a1494cbabb6.yaml
 ./poc/java/css_javascript_toolbox-b6a99135-c12e-435c-bd81-ddd3414d178a.yaml
 ./poc/java/custom-Jboss-JMS-Invocation-Layer.yaml
+./poc/java/custom-jetty-server-path-normalization-detect.yaml
 ./poc/java/custom-jreport-admin-creds.yaml
 ./poc/java/custom-jreport-admin-creds_1.yaml
+./poc/java/custom-mapview-jsp-detect.yaml
 ./poc/java/custom-weblogic-SSRF-detect.yaml
 ./poc/java/custom_css_and_javascript-a56eae11-578e-40d3-8a89-72af7d4d42e1.yaml
 ./poc/java/cve-2017-10271_weblogic_xmldecoder反序列化漏洞.yaml
@@ -167366,6 +167362,7 @@
 ./poc/java/jboss_enterprise_application_platform.yaml
 ./poc/java/jeespringcloud-uploadfile-fileupload.yaml
 ./poc/java/jetty-cve-2021-28164.yaml
+./poc/java/jetty-detect.yaml
 ./poc/java/jetty-directory-listing.yaml
 ./poc/java/jetty-directory-listing_1.yaml
 ./poc/java/jetty-information-disclosure.yaml
@@ -167464,6 +167461,7 @@
 ./poc/java/shiro-deserialization-detection.yaml
 ./poc/java/shiro-deserialization-detection_2.yaml
 ./poc/java/shiro-detect-10195.yaml
+./poc/java/shiro-detect-10196.yaml
 ./poc/java/shiro-detect-10197.yaml
 ./poc/java/shiro-detect.yaml
 ./poc/java/shiro-key-detect.yaml
@@ -167594,6 +167592,7 @@
 ./poc/java/springboot-configprops_6.yaml
 ./poc/java/springboot-configprops_7.yaml
 ./poc/java/springboot-configprops_9.yaml
+./poc/java/springboot-detect.yaml
 ./poc/java/springboot-dump-1.yaml
 ./poc/java/springboot-dump-10446.yaml
 ./poc/java/springboot-dump-10447.yaml
@@ -167763,7 +167762,10 @@
 ./poc/java/springcloud-cve-2019-3799.yml
 ./poc/java/springcloud-function-spel-rce.yaml
 ./poc/java/springer.yaml
+./poc/java/struts-debug-mode-10559.yaml
 ./poc/java/struts-debug-mode-10560.yaml
+./poc/java/struts-debug-mode-10561.yaml
+./poc/java/struts-debug-mode.yaml
 ./poc/java/struts-ognl-console.yaml
 ./poc/java/struts-problem-report-10562.yaml
 ./poc/java/struts-problem-report-10563.yaml
@@ -167803,6 +167805,7 @@
 ./poc/java/tomcat-detect-10793.yaml
 ./poc/java/tomcat-detect-10794.yaml
 ./poc/java/tomcat-detect-10795.yaml
+./poc/java/tomcat-detect.yaml
 ./poc/java/tomcat-detect_1.yaml
 ./poc/java/tomcat-detect_10.yaml
 ./poc/java/tomcat-detect_5.yaml
@@ -175451,7 +175454,7 @@
 ./poc/other/0x022_1.yaml
 ./poc/other/0x023_2.yaml
 ./poc/other/0x024.yaml
-./poc/other/0x025_1.yaml
+./poc/other/0x025.yaml
 ./poc/other/0x026_1.yaml
 ./poc/other/0x027.yaml
 ./poc/other/0x028.yaml
@@ -176307,7 +176310,6 @@
 ./poc/other/1192749128_1.yaml
 ./poc/other/1192751673_2.yaml
 ./poc/other/1192756401.yaml
-./poc/other/1192756401_2.yaml
 ./poc/other/1193465528_2.yaml
 ./poc/other/1193598862_2.yaml
 ./poc/other/119403798_2.yaml
@@ -177007,7 +177009,6 @@
 ./poc/other/1374431144_1.yaml
 ./poc/other/137444620.yaml
 ./poc/other/1374740076.yaml
-./poc/other/1374740076_1.yaml
 ./poc/other/1374924904.yaml
 ./poc/other/1375290159.yaml
 ./poc/other/1375350415.yaml
@@ -177685,6 +177686,7 @@
 ./poc/other/1560071601.yaml
 ./poc/other/1560775468_2.yaml
 ./poc/other/1560900970.yaml
+./poc/other/1560922968_2.yaml
 ./poc/other/1561383715.yaml
 ./poc/other/1561819250_1.yaml
 ./poc/other/1561898800_1.yaml
@@ -180563,7 +180565,6 @@
 ./poc/other/2321130_2.yaml
 ./poc/other/232145459_2.yaml
 ./poc/other/2321887670.yaml
-./poc/other/2321887670_2.yaml
 ./poc/other/2322303417.yaml
 ./poc/other/2322448648_1.yaml
 ./poc/other/232263388.yaml
@@ -180763,7 +180764,6 @@
 ./poc/other/237789408_1.yaml
 ./poc/other/2378325249.yaml
 ./poc/other/2378487680.yaml
-./poc/other/2378487680_1.yaml
 ./poc/other/2378503604_1.yaml
 ./poc/other/2378572217.yaml
 ./poc/other/2378774851_2.yaml
@@ -182135,7 +182135,6 @@
 ./poc/other/2753602128_1.yaml
 ./poc/other/2753782684.yaml
 ./poc/other/2753927578.yaml
-./poc/other/2755030215.yaml
 ./poc/other/2755030215_2.yaml
 ./poc/other/2755894847.yaml
 ./poc/other/2756360560.yaml
@@ -183092,7 +183091,6 @@
 ./poc/other/3014752890_1.yaml
 ./poc/other/3014869411_2.yaml
 ./poc/other/301496554.yaml
-./poc/other/301496554_1.yaml
 ./poc/other/3015248175.yaml
 ./poc/other/3015751354_2.yaml
 ./poc/other/3015796818.yaml
@@ -184289,7 +184287,6 @@
 ./poc/other/3333969603_2.yaml
 ./poc/other/3334197591_1.yaml
 ./poc/other/3334421219.yaml
-./poc/other/3334421219_2.yaml
 ./poc/other/3334791790.yaml
 ./poc/other/3336454231_1.yaml
 ./poc/other/3337222666.yaml
@@ -184632,6 +184629,7 @@
 ./poc/other/3437228765_1.yaml
 ./poc/other/3438122636.yaml
 ./poc/other/343818810_1.yaml
+./poc/other/3438765220.yaml
 ./poc/other/3439418616.yaml
 ./poc/other/3439518075.yaml
 ./poc/other/3440481420_2.yaml
@@ -185025,7 +185023,6 @@
 ./poc/other/3549273913.yaml
 ./poc/other/3549300076.yaml
 ./poc/other/3549558161.yaml
-./poc/other/3549558161_2.yaml
 ./poc/other/3549748047_1.yaml
 ./poc/other/3549915715.yaml
 ./poc/other/3550102148.yaml
@@ -185241,7 +185238,6 @@
 ./poc/other/360-product-rotation.yaml
 ./poc/other/360-product-rotation_1_1.yaml
 ./poc/other/360-product-rotation_2.yaml
-./poc/other/360-product-rotation_3.yaml
 ./poc/other/360-sphere-images-881b880622ec459a1ae1125cd8c392ce_1.yaml
 ./poc/other/360-tian-di-xin-yi-dai-zhi-hui-fang-huo-qiang_2.yaml
 ./poc/other/360-tianji.yaml
@@ -186588,6 +186584,7 @@
 ./poc/other/3987336306.yaml
 ./poc/other/3987679788_1.yaml
 ./poc/other/3987753575_1.yaml
+./poc/other/3987804079.yaml
 ./poc/other/3987952987.yaml
 ./poc/other/3988203152.yaml
 ./poc/other/3988867662_2.yaml
@@ -186817,6 +186814,7 @@
 ./poc/other/4027597374_1.yaml
 ./poc/other/402783795_1.yaml
 ./poc/other/4027992462_2.yaml
+./poc/other/4028446893.yaml
 ./poc/other/4028673247.yaml
 ./poc/other/4028774893.yaml
 ./poc/other/4028776099_1.yaml
@@ -187323,6 +187321,7 @@
 ./poc/other/4146457139.yaml
 ./poc/other/414652989.yaml
 ./poc/other/4147237906.yaml
+./poc/other/4147374715.yaml
 ./poc/other/4147374715_1.yaml
 ./poc/other/4147439962_1.yaml
 ./poc/other/4147439962_2.yaml
@@ -190592,6 +190591,7 @@
 ./poc/other/WooYun-2015-148227.yaml
 ./poc/other/WooYun-2015-148227_1.yaml
 ./poc/other/Wooyun-2010-080723.yaml
+./poc/other/WorkflowCenterTreeData.yaml
 ./poc/other/WorkflowCenterTreeData_2.yaml
 ./poc/other/Workfront-dev-backend.yaml
 ./poc/other/X-Client-IP .yaml
@@ -195918,6 +195918,7 @@
 ./poc/other/artifactory-anonymous-deploy.yaml
 ./poc/other/artifactory-workflow.yaml
 ./poc/other/artifactory-workflow_2.yaml
+./poc/other/artifactory.yaml
 ./poc/other/artifactory_deploy.yaml
 ./poc/other/artificial-intelligence-2ca61ba70ad363ffb4ff1cb54f965585.yaml
 ./poc/other/artificial-intelligence-auto-content-generator.yaml
@@ -203866,6 +203867,7 @@
 ./poc/other/checkpoint-firewall-enum_1.yaml
 ./poc/other/checkpoint-firewall-enum_3.yaml
 ./poc/other/checkpoint-hostname.yaml
+./poc/other/checkpoint-ike-asn1.yaml
 ./poc/other/checkpoint-panel-1.yaml
 ./poc/other/checkpoint-panel-2.yaml
 ./poc/other/checkpoint-panel-898.yaml
@@ -226993,6 +226995,7 @@
 ./poc/other/knews.yaml
 ./poc/other/knews_1.yaml
 ./poc/other/knews_2.yaml
+./poc/other/knife4j.yaml
 ./poc/other/knime-server-panel_1.yaml
 ./poc/other/knit_pay-6554a95c-13f9-4548-a062-fe9cd873d334.yaml
 ./poc/other/knit_pay-770fd2b9-b226-4b6a-84f6-674061ddad93.yaml
@@ -231714,6 +231717,7 @@
 ./poc/other/miion-f5af4aa1-e384-4bc2-a9d2-67e4685eea4e.yaml
 ./poc/other/mikado_core-cba546d8-df3e-4ada-9cf9-663baf175dd0.yaml
 ./poc/other/mikado_core-d144aab0-a55a-4889-86d9-40534cbec31c.yaml
+./poc/other/mikopbx-panel.yaml
 ./poc/other/mikopbx.yaml
 ./poc/other/mikrotik-graph-8870.yaml
 ./poc/other/mikrotik-graph-8871_1.yaml
@@ -236516,6 +236520,7 @@
 ./poc/other/panabit-singleuser-action-adduser.yaml
 ./poc/other/panabit-syaddmount-command-exec.yaml
 ./poc/other/panalog-fileRead.yaml
+./poc/other/panasonic-ipro-ndr-panel.yaml
 ./poc/other/panasonic-maintenance-utility.yaml
 ./poc/other/panasonic-network-management-9446.yaml
 ./poc/other/panasonic-network-management-9447.yaml
@@ -240943,6 +240948,7 @@
 ./poc/other/quasar-rat-c2_3.yaml
 ./poc/other/quasar-theme-d41d8cd98f00b204e9800998ecf8427e.yaml
 ./poc/other/quasar-theme.yaml
+./poc/other/quasar.yaml
 ./poc/other/quasar_form-150021d3-71bb-41c0-bb1c-5843e94ec0b6.yaml
 ./poc/other/qubely-0a364cf3fa203109b832667e490ccafd.yaml
 ./poc/other/qubely-0ccf1582-7d3d-4ca0-b241-d6deaa79a994.yaml
@@ -251701,6 +251707,7 @@
 ./poc/other/templatiq-08b7aa6b-4532-4365-9b73-4453c714be95.yaml
 ./poc/other/templazee-1a4dfbbe-19b9-4e8a-bf2f-c6a3d4759848.yaml
 ./poc/other/temporarily_hidden_content-67afe49c-3560-414b-b848-b91a03bf7556.yaml
+./poc/other/ten-framework.yaml
 ./poc/other/tenable-sc-panel_1.yaml
 ./poc/other/tencent-exmail.yaml
 ./poc/other/tencent-foxmail-server.yaml
@@ -260985,6 +260992,7 @@
 ./poc/other/yamaps-b0b84c2a-7297-4d96-8fa7-638b2b9953f4.yaml
 ./poc/other/yamaps.yaml
 ./poc/other/yamaps_1.yaml
+./poc/other/yamcs.yaml
 ./poc/other/yame_linkinbio-c45aea72-2c9d-484d-8904-a1985df4b57c.yaml
 ./poc/other/yaml-poc-coremail-coremail-leak-CT-158053.yml
 ./poc/other/yaml-poc-crawlab-crawlab-idor-CT-456787.yml
@@ -265363,7 +265371,6 @@
 ./poc/remote_code_execution/phpstudy-backdoor-rce.yaml
 ./poc/remote_code_execution/phpstudy-backdoor-rce.yml
 ./poc/remote_code_execution/phpstudy-rce.yaml
-./poc/remote_code_execution/phpstudy-rce_1.yaml
 ./poc/remote_code_execution/pi-woocommerce-order-date-time-and-type-a44345779387d191aa1fdac0be1e3bd0.yaml
 ./poc/remote_code_execution/pi-woocommerce-order-date-time-and-type.yaml
 ./poc/remote_code_execution/pi_woocommerce_order_date_time_and_type-f19006a0-6848-467b-90ed-33b3ebd2c7ba.yaml
@@ -279484,7 +279491,6 @@
 ./poc/sql_injection/prestashop-apmarketplace-sqli.yaml
 ./poc/sql_injection/prestashop-marketplace-sqli.yaml
 ./poc/sql_injection/privId_SQL.yaml
-./poc/sql_injection/privId_SQL_1.yaml
 ./poc/sql_injection/privesc-sqlite3.yaml
 ./poc/sql_injection/psql-user-enum.yaml
 ./poc/sql_injection/python-app-sql-exceptions-9744.yaml
