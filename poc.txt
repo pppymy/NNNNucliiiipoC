@@ -46827,6 +46827,7 @@
 ./poc/cve/CVE-2017-2551_3.yaml
 ./poc/cve/CVE-2017-3131.yaml
 ./poc/cve/CVE-2017-3131_1.yaml
+./poc/cve/CVE-2017-3132.yaml
 ./poc/cve/CVE-2017-3132_1.yaml
 ./poc/cve/CVE-2017-3133.yaml
 ./poc/cve/CVE-2017-3133_1.yaml
@@ -56625,7 +56626,6 @@
 ./poc/cve/CVE-2020-4050.yaml
 ./poc/cve/CVE-2020-4050_1.yaml
 ./poc/cve/CVE-2020-4427.yaml
-./poc/cve/CVE-2020-4427_1.yaml
 ./poc/cve/CVE-2020-4429.yaml
 ./poc/cve/CVE-2020-4429_1.yaml
 ./poc/cve/CVE-2020-4429_10.yaml
@@ -58031,7 +58031,6 @@
 ./poc/cve/CVE-2021-22145_5.yaml
 ./poc/cve/CVE-2021-22146.yaml
 ./poc/cve/CVE-2021-22175.yaml
-./poc/cve/CVE-2021-22175_9.yaml
 ./poc/cve/CVE-2021-22205-5593_1.yaml
 ./poc/cve/CVE-2021-22205-5595_1.yaml
 ./poc/cve/CVE-2021-22205-5596_1.yaml
@@ -64010,6 +64009,7 @@
 ./poc/cve/CVE-2021-32305_3.yaml
 ./poc/cve/CVE-2021-32305_4.yaml
 ./poc/cve/CVE-2021-3239.yaml
+./poc/cve/CVE-2021-32478.yaml
 ./poc/cve/CVE-2021-32605.yaml
 ./poc/cve/CVE-2021-32615.yaml
 ./poc/cve/CVE-2021-32618-6137.yaml
@@ -91514,7 +91514,6 @@
 ./poc/cve/CVE-2023-35781_1.yaml
 ./poc/cve/CVE-2023-35781_3.yaml
 ./poc/cve/CVE-2023-3578_1.yaml
-./poc/cve/CVE-2023-3578_2.yaml
 ./poc/cve/CVE-2023-35813.yaml
 ./poc/cve/CVE-2023-35813_1.yaml
 ./poc/cve/CVE-2023-35813_3.yaml
@@ -93179,7 +93178,6 @@
 ./poc/cve/CVE-2023-40750.yaml
 ./poc/cve/CVE-2023-40750_1.yaml
 ./poc/cve/CVE-2023-40751_1.yaml
-./poc/cve/CVE-2023-40752.yaml
 ./poc/cve/CVE-2023-40752_1.yaml
 ./poc/cve/CVE-2023-40753.yaml
 ./poc/cve/CVE-2023-40753_1.yaml
@@ -94551,6 +94549,7 @@
 ./poc/cve/CVE-2023-4521.yaml
 ./poc/cve/CVE-2023-4521_1.yaml
 ./poc/cve/CVE-2023-4521_2.yaml
+./poc/cve/CVE-2023-45249.yaml
 ./poc/cve/CVE-2023-45249_1.yaml
 ./poc/cve/CVE-2023-45249_10.yaml
 ./poc/cve/CVE-2023-45249_11.yaml
@@ -94560,7 +94559,6 @@
 ./poc/cve/CVE-2023-45249_15.yaml
 ./poc/cve/CVE-2023-45249_16.yaml
 ./poc/cve/CVE-2023-45249_17.yaml
-./poc/cve/CVE-2023-45249_18.yaml
 ./poc/cve/CVE-2023-45249_19.yaml
 ./poc/cve/CVE-2023-45249_2.yaml
 ./poc/cve/CVE-2023-45249_20.yaml
@@ -95560,6 +95558,7 @@
 ./poc/cve/CVE-2023-4703-abd33185e9a1cfe9176774cce9a1e2d3.yaml
 ./poc/cve/CVE-2023-4703-all_in_one_b2b_for_woocommerce-aab3016d-5834-4b4a-a206-0b626884b335.yaml
 ./poc/cve/CVE-2023-4703.yaml
+./poc/cve/CVE-2023-47105.yaml
 ./poc/cve/CVE-2023-47105_1.yaml
 ./poc/cve/CVE-2023-47115.yaml
 ./poc/cve/CVE-2023-47115_1.yaml
@@ -97958,6 +97957,7 @@
 ./poc/cve/CVE-2023-5057-activitypub-76e35dc6-a4d2-4dca-a186-395f0dd954aa.yaml
 ./poc/cve/CVE-2023-5057-b714e8f9f5cfc22796b43f7fee1d99b8.yaml
 ./poc/cve/CVE-2023-5057.yaml
+./poc/cve/CVE-2023-50578.yaml
 ./poc/cve/CVE-2023-5057_2.yaml
 ./poc/cve/CVE-2023-5062-f6a727af1486c6b6e16beb2d524c3b39.yaml
 ./poc/cve/CVE-2023-5062-wp_charts-2de2d2c5-1373-45b6-93a0-575713226669.yaml
@@ -111018,7 +111018,6 @@
 ./poc/cve/CVE-2024-28000-cf6ac978bbc80445dcf2da6ef53372ad.yaml
 ./poc/cve/CVE-2024-28000-litespeed_cache-104badec-6e6e-44bb-936b-d135dd80890d.yaml
 ./poc/cve/CVE-2024-28000.yaml
-./poc/cve/CVE-2024-28000_1.yaml
 ./poc/cve/CVE-2024-28001-37a725cdeb2e43640f8b5b37ee68b599.yaml
 ./poc/cve/CVE-2024-28001.yaml
 ./poc/cve/CVE-2024-28001_1.yaml
@@ -119462,6 +119461,7 @@
 ./poc/cve/CVE-2024-3990-ht_mega_for_elementor-98e74a23-b586-4d6a-b1ab-78838b0eed61.yaml
 ./poc/cve/CVE-2024-3990.yaml
 ./poc/cve/CVE-2024-39903.yaml
+./poc/cve/CVE-2024-39907.yaml
 ./poc/cve/CVE-2024-39907_1.yaml
 ./poc/cve/CVE-2024-39907_2.yaml
 ./poc/cve/CVE-2024-3990_1.yaml
@@ -122545,7 +122545,6 @@
 ./poc/cve/CVE-2024-4939_1.yaml
 ./poc/cve/CVE-2024-4940.yaml
 ./poc/cve/CVE-2024-4940_1.yaml
-./poc/cve/CVE-2024-4940_3.yaml
 ./poc/cve/CVE-2024-4942-21b87682d470a2f9ca18316576fd72ae.yaml
 ./poc/cve/CVE-2024-4942-custom_dash-13344366-feb0-4987-9543-222e3d35dab3.yaml
 ./poc/cve/CVE-2024-4942.yaml
@@ -125855,6 +125854,7 @@
 ./poc/cve/CVE-2024-55864-my_wp-9302ed6a-1725-4215-ba75-e5cb10da292e.yaml
 ./poc/cve/CVE-2024-55864.yaml
 ./poc/cve/CVE-2024-55864_1.yaml
+./poc/cve/CVE-2024-55890.yaml
 ./poc/cve/CVE-2024-55890_1.yaml
 ./poc/cve/CVE-2024-5595-essential_blocks-a223c8b4-6657-40f0-a040-9867595dbf64.yaml
 ./poc/cve/CVE-2024-5595.yaml
@@ -128841,7 +128841,6 @@
 ./poc/cve/CVE-2024-9047.yaml
 ./poc/cve/CVE-2024-9047.yml
 ./poc/cve/CVE-2024-9047_1.yaml
-./poc/cve/CVE-2024-9047_2.yaml
 ./poc/cve/CVE-2024-9049-beaver_builder_lite_version-13517c2f-43ce-4e9a-81c4-d422b0e7273a.yaml
 ./poc/cve/CVE-2024-9049.yaml
 ./poc/cve/CVE-2024-9051-wp_ultimate_post_grid-f3154a7a-b8b3-490b-9822-b3a92d1b4fef.yaml
@@ -129279,6 +129278,7 @@
 ./poc/cve/CVE-2024-9592.yaml
 ./poc/cve/CVE-2024-9593-time_clock-247e599a-74e2-41d5-a1ba-978a807e6544.yaml
 ./poc/cve/CVE-2024-9593-time_clock_pro-247e599a-74e2-41d5-a1ba-978a807e6544.yaml
+./poc/cve/CVE-2024-9593.yaml
 ./poc/cve/CVE-2024-9593_1.yaml
 ./poc/cve/CVE-2024-9593_2.yaml
 ./poc/cve/CVE-2024-9595-tablepress-ffa3b85c-7d08-4f6a-889e-b75620f72a1a.yaml
@@ -131599,7 +131599,6 @@
 ./poc/cve/CVE-2025-1661-woocommerce_products_filter-9ae7b6fc-2120-4573-8b1b-d5422d435fa5.yaml
 ./poc/cve/CVE-2025-1661.yaml
 ./poc/cve/CVE-2025-1661.yml
-./poc/cve/CVE-2025-1661_1.yaml
 ./poc/cve/CVE-2025-1662-url_media_uploader-ae8f1852-2d67-4ed9-ab3d-5b3bf4083e06.yaml
 ./poc/cve/CVE-2025-1662.yaml
 ./poc/cve/CVE-2025-1663-unlimited_elements_for_elementor-d07c43e0-783a-499b-b172-d058583d0749.yaml
@@ -135839,7 +135838,6 @@
 ./poc/cve/CVE-2025-30565.yaml
 ./poc/cve/CVE-2025-30566.yaml
 ./poc/cve/CVE-2025-30567.yaml
-./poc/cve/CVE-2025-30567_1.yaml
 ./poc/cve/CVE-2025-30568-super_static_cache-f6cf31f0-b560-40c5-b6e4-4fc444e6d23b.yaml
 ./poc/cve/CVE-2025-30568.yaml
 ./poc/cve/CVE-2025-30569-wp_featured_entries-10253537-1a54-471c-bf0d-e8523b0c6ae1.yaml
@@ -145420,7 +145418,6 @@
 ./poc/cve/CVE-2025-71260.yaml
 ./poc/cve/CVE-2025-71324.yaml
 ./poc/cve/CVE-2025-71334.yaml
-./poc/cve/CVE-2025-71334_1.yaml
 ./poc/cve/CVE-2025-7160.yaml
 ./poc/cve/CVE-2025-7205-give-39e501d8-88a0-4625-aeb0-aa33fc89a8d4.yaml
 ./poc/cve/CVE-2025-7205.yaml
@@ -151356,6 +151353,7 @@
 ./poc/cve/CVE-2026-6147-lightsyncpro-9ccdf08b-8b74-4b58-8779-3b07ef2d7b2f.yaml
 ./poc/cve/CVE-2026-61511.yaml
 ./poc/cve/CVE-2026-6169-affiliate_toolkit_starter-b6310a0c-5a96-4dbc-940e-025c9b907c7d.yaml
+./poc/cve/CVE-2026-61736.yaml
 ./poc/cve/CVE-2026-6174-cc_child_pages-998d3485-97c2-4aa6-ba0c-693f5fd6af07.yaml
 ./poc/cve/CVE-2026-6176-customer_reviews_woocommerce-d784afb0-03ca-48f8-ac21-230601c028a1.yaml
 ./poc/cve/CVE-2026-6178-betheme-686dd63b-5471-4654-8009-e3ab648f8b86.yaml
@@ -152888,6 +152886,7 @@
 ./poc/cve/CVE-2026-89055-customer_reviews_woocommerce-b7bbeeea-3888-42a6-8d14-f5c39f5dcb70.yaml
 ./poc/cve/CVE-2026-8906-wp_promoter-8451fe09-4280-49ef-b088-698cbf40b86b.yaml
 ./poc/cve/CVE-2026-89063-bookly_responsive_appointment_booking_tool-b6af015f-f954-4afb-9d65-56176f73672f.yaml
+./poc/cve/CVE-2026-89063.yaml
 ./poc/cve/CVE-2026-89064-all_in_one_wp_migration-5a8737b1-fb68-4609-8474-9395f30c1089.yaml
 ./poc/cve/CVE-2026-8907-wp_ultimate_map-334fb374-c84b-4fec-8653-f7ad6af1f631.yaml
 ./poc/cve/CVE-2026-89080-really_simple_ssl-96d1d456-a96f-4566-8d5e-6c8aff74137d.yaml
@@ -164560,9 +164559,9 @@
 ./poc/drupal/drupal_module-tfa_basic-insecure-randomness_2.yaml
 ./poc/drupal/drupal_module-tft-access-bypass.yaml
 ./poc/drupal/drupal_module-tft-access-bypass_1.yaml
+./poc/drupal/drupal_module-thunder-access-bypass.yaml
 ./poc/drupal/drupal_module-thunder-access-bypass_1.yaml
 ./poc/drupal/drupal_module-thunder-access-bypass_2.yaml
-./poc/drupal/drupal_module-thunder-access-bypass_3.yaml
 ./poc/drupal/drupal_module-tmgmt-remote-code-execution.yaml
 ./poc/drupal/drupal_module-tmgmt-remote-code-execution_1.yaml
 ./poc/drupal/drupal_module-tooltip-cross-site-scripting.yaml
@@ -166036,8 +166035,8 @@
 ./poc/ftp/crushftp-login.yaml
 ./poc/ftp/crushftp.yaml
 ./poc/ftp/dahua-dss-deleteftp-rce.yaml
+./poc/ftp/dahua-smart-park-deleteftp-rce.yaml
 ./poc/ftp/dahua-smart-park-deleteftp-rce_1.yaml
-./poc/ftp/dahua-smart-park-deleteftp-rce_3.yaml
 ./poc/ftp/dahua_smart_park_management_deleteftp_rce.yaml
 ./poc/ftp/delegate-ftp-detect.yaml
 ./poc/ftp/delegate-ftp-detect_1.yaml
@@ -166396,7 +166395,6 @@
 ./poc/ftp/vsftpd-detection.yaml
 ./poc/ftp/wanhu-download-ftp-file-read.yaml
 ./poc/ftp/wanhu-ezoffice-download-ftp-file-read.yaml
-./poc/ftp/wanhu-ezoffice-download-ftp-jsp-filedownload.yaml
 ./poc/ftp/wanhu-oa-download-ftp-file-read.yaml
 ./poc/ftp/wanhu-oa-download-ftp-file-read_2.yaml
 ./poc/ftp/wanhu-oa-download-ftp-fileread.yaml
@@ -170908,22 +170906,19 @@
 ./poc/javascript/CVE-2026-9731-wp_js_detect-afca7b14-f3bb-4612-b81c-bde120b380ba.yaml
 ./poc/javascript/Express-LFR-json-2.yaml
 ./poc/javascript/Express-LFR-json.yaml
-./poc/javascript/HJSOFT-HCM-sql-codesettree.yaml
 ./poc/javascript/HJSOFT-HCM-upload-OfficeServer.yaml
-./poc/javascript/JCMS-Downfile_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Import_Jsp-FileUpload.yaml
 ./poc/javascript/JCMS-Index_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-JCMSopr_Domsg_JSP-SQLi.yaml
+./poc/javascript/JCMS-Opr_Datacall_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Opr_Wap_Col_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Que_Dictionary_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Que_Flow_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Que_Model_JSP-Unauth.yaml
 ./poc/javascript/JCMS-Que_Model_JSP-Unauth_1.yaml
-./poc/javascript/JCMS-Que_Recemsg_Jsp-SQLi.yaml
 ./poc/javascript/JCMS-Selectx_List_JSP-SQLi.yaml
 ./poc/javascript/JCMS-lm_sys_opr_uploadimg_JSP-FileUpload.yaml
 ./poc/javascript/JCMS-m_1_9_user_Down_Jsp-FileDownload.yaml
-./poc/javascript/Joomla-lfd-cckjseblod.yaml
 ./poc/javascript/Path_traversal_NodeJs.yaml
 ./poc/javascript/Path_traversal_NodeJs_1.yaml
 ./poc/javascript/Seeyon_OA_A6_createMysql.jsp_Disclosure_of_database_sensitive_information.yaml
@@ -170932,6 +170927,8 @@
 ./poc/javascript/VC-Coltop_Interface_JSP-SQLi.yaml
 ./poc/javascript/VC-Columncount_Downfile_JSP-FileInclude.yaml
 ./poc/javascript/VC-Interface_Styletop_Arttop_interface_JSP-SQLi.yaml
+./poc/javascript/VC-Que_Style_Coltop_JSP-SQLi.yaml
+./poc/javascript/VC-opr_copycode_jsp-SQLi.yaml
 ./poc/javascript/WP_json_caching.yaml
 ./poc/javascript/aadhar-pan-scanner-json-detection.yaml
 ./poc/javascript/add-admin-javascript-09164bd05c0182a7c60be8a5bccdd574.yaml
@@ -171073,7 +171070,6 @@
 ./poc/javascript/dahua-icc-fastjson-rce.yaml
 ./poc/javascript/dahua-searchJson-sqli.yaml
 ./poc/javascript/dahua-searchJson-sqli_1.yaml
-./poc/javascript/dahua-wpms-searchjson-sqli .yaml
 ./poc/javascript/database-create-json-exposure.yaml
 ./poc/javascript/database.json-exposure.yaml
 ./poc/javascript/database.json-exposure_1.yaml
@@ -171215,6 +171211,7 @@
 ./poc/javascript/fuzz-body-json-sqli.yaml
 ./poc/javascript/fuzzing-xss-get-params-javascript-context-injection.yaml
 ./poc/javascript/fuzzing-xss-get-params-javascript-schema-url-injection.yaml
+./poc/javascript/geoserver-jsonarraycontains-sqli.yaml
 ./poc/javascript/get-access-token-json.yaml
 ./poc/javascript/get-access-token-json_1.yaml
 ./poc/javascript/get-access-token-json_2.yaml
@@ -171240,16 +171237,13 @@
 ./poc/javascript/hikvision_fastjson_rce_1.yaml
 ./poc/javascript/hikvision_js_Files_upload.yaml
 ./poc/javascript/hjsoft-eHR-outputcode-lfi.yaml
-./poc/javascript/hjsoft-eHR-showmediainfo-sqli.yaml
 ./poc/javascript/hjsoft-eHR-showmediainfo-sqli_1_1.yaml
-./poc/javascript/hjsoft-eHR-system-sqli.yaml
 ./poc/javascript/hjsoft-hcm-DisplayExcelCustomReport-arbitrary-fileread.yaml
 ./poc/javascript/hjsoft-hcm-arbitrary-file-fileupload.yaml
 ./poc/javascript/hjsoft-hcm-arbitrary-file-upload.yaml
 ./poc/javascript/hjsoft-hcm-codesettree-serlvet-categories-sqli.yml
 ./poc/javascript/hjsoft-hcm-downloadcourseware-lfi.yaml
 ./poc/javascript/hjsoft-hcm-fieldsettree-sqli.yaml
-./poc/javascript/hjsoft-hcm-getsdutytree-sqli.yaml
 ./poc/javascript/hjsoft-hcm-lfi.yaml
 ./poc/javascript/hjsoft-hcm-lfi_4.yaml
 ./poc/javascript/hjsoft-hcm-loadothertree-sqli.yaml
@@ -171260,7 +171254,6 @@
 ./poc/javascript/hjsoft-hcm-tb-sqli.yaml
 ./poc/javascript/hjsoft-hcm-tb-sqli_1.yaml
 ./poc/javascript/hjsoft-hcm.yaml
-./poc/javascript/hjsoft-hr-system-sqli.yaml
 ./poc/javascript/hjsoft-servlet-DisplayFiles-fileread.yaml
 ./poc/javascript/hjsoft-uploadlogo-fileupload.yaml
 ./poc/javascript/host-analyticsjs-local-7ba472e1c966ad6d5f8b84600a49a46d.yaml
@@ -171318,7 +171311,7 @@
 ./poc/javascript/js-jobs-f0aa997b8270792b27e8a75568f1ceb8.yaml
 ./poc/javascript/js-jobs-plugin-d41d8cd98f00b204e9800998ecf8427e.yaml
 ./poc/javascript/js-jobs-plugin-d41d8cd98f00b204e9800998ecf8427e_2.yaml
-./poc/javascript/js-jobs-plugin_1.yaml
+./poc/javascript/js-jobs-plugin.yaml
 ./poc/javascript/js-jobs_1.yaml
 ./poc/javascript/js-leaks.yaml
 ./poc/javascript/js-libraries-detect_1.yaml
@@ -171737,7 +171730,7 @@
 ./poc/javascript/videojs_html5_video_player_for_wordpress-92084af7-142b-45de-8881-dee5cf1367e2.yaml
 ./poc/javascript/vscode-mcp-json.yaml
 ./poc/javascript/vvvebjs.yaml
-./poc/javascript/wanhu-ezoffice-documentedit-jsp-sqli.yaml
+./poc/javascript/wanhu-ezoffice-download-ftp-jsp-filedownload.yaml
 ./poc/javascript/wanhu-ezoffice-download-jsp-filedownload.yaml
 ./poc/javascript/wanhu-ezoffice-downloadhttp-jsp-filedownload.yaml
 ./poc/javascript/wanhu-ezoffice-officeserver-jsp-fileupload.yaml
@@ -171861,22 +171854,24 @@
 ./poc/joomla/CVE-2024-32788-fg_joomla_to_wordpress-ab87321b-d326-498d-9a75-44692258cae6.yaml
 ./poc/joomla/Joomla-Database-download.yaml
 ./poc/joomla/Joomla-LFD-s5_media_player.yaml
+./poc/joomla/Joomla-SQLi-com_rbids.yaml
 ./poc/joomla/Joomla-Upload-media.yaml
+./poc/joomla/Joomla-lfd-cckjseblod.yaml
 ./poc/joomla/Joomla-lfd-contushdvideoshare.yaml
 ./poc/joomla/Joomla-lfi-com_joomanager.yaml
 ./poc/joomla/Joomla-sqli-aceftp.yaml
-./poc/joomla/Joomla-sqli-com_blog_calendar.yaml
 ./poc/joomla/Joomla-sqli-com_ebcontent.yaml
 ./poc/joomla/Joomla-sqli-com_fastball.yaml
 ./poc/joomla/Joomla-sqli-com_fields.yaml
+./poc/joomla/Joomla-sqli-com_gallery_wd.yaml
 ./poc/joomla/Joomla-sqli-com_jobgroklist.yaml
 ./poc/joomla/Joomla-sqli-com_rand.yaml
-./poc/joomla/Joomla-sqli-com_rpl.yaml
-./poc/joomla/Joomla-sqli-com_sponsorwall.yaml
+./poc/joomla/Joomla-sqli-com_training.yaml
+./poc/joomla/Joomla-sqli-com_vikbooking.yaml
 ./poc/joomla/Joomla-sqli-googlesearch.yaml
-./poc/joomla/Joomla-sqli-registrationpro.yaml
 ./poc/joomla/Joomla-upload-com_myblog.yaml
 ./poc/joomla/Joomla_contushdvideoshare_任意文件读取漏洞.yaml
+./poc/joomla/Joomla_departments_SQL注入.yaml
 ./poc/joomla/Joomla_version.yaml
 ./poc/joomla/fg-joomla-to-wordpress-0c2cc863d5de77f2b903335b994f890e.yaml
 ./poc/joomla/fg-joomla-to-wordpress-9ab38815a074599313efba67954d6794.yaml
@@ -171903,6 +171898,7 @@
 ./poc/joomla/joomla-com-fabrik-lfi-8373.yaml
 ./poc/joomla/joomla-com-fabrik-lfi.yaml
 ./poc/joomla/joomla-com-fabrik-lfi_1_3.yaml
+./poc/joomla/joomla-component-vreview-sql.yaml
 ./poc/joomla/joomla-component-vreview-sql.yml
 ./poc/joomla/joomla-config-dist-file.yaml
 ./poc/joomla/joomla-config-dist-file_1.yaml
@@ -171914,12 +171910,13 @@
 ./poc/joomla/joomla-config-file_1.yaml
 ./poc/joomla/joomla-config-file_2.yaml
 ./poc/joomla/joomla-config-file_4.yaml
-./poc/joomla/joomla-cve-2015-7297-sqli.yaml
+./poc/joomla/joomla-cve-2017-8917-sqli.yaml
+./poc/joomla/joomla-cve-2018-7314-sql.yaml
 ./poc/joomla/joomla-cve-2023-23752.yaml
+./poc/joomla/joomla-department-sqli.yaml
 ./poc/joomla/joomla-detect.yaml
 ./poc/joomla/joomla-detect_2.yaml
 ./poc/joomla/joomla-easyshop-lfi.yaml
-./poc/joomla/joomla-ext-zhbaidumap-cve-2018-6605-sqli.yaml
 ./poc/joomla/joomla-file-listing-8378.yaml
 ./poc/joomla/joomla-file-listing-8379.yaml
 ./poc/joomla/joomla-file-listing-8380.yaml
@@ -171969,9 +171966,12 @@
 ./poc/joomla/joomla-sqli-K2.yaml
 ./poc/joomla/joomla-sqli-com_job.yaml
 ./poc/joomla/joomla-sqli-com_jobprofile.yaml
+./poc/joomla/joomla-sqli-com_pccookbook.yaml
 ./poc/joomla/joomla-sqli-com_people_1.yaml
+./poc/joomla/joomla-sqli-com_redshop.yaml
 ./poc/joomla/joomla-sqli-com_s5clanroster.yaml
-./poc/joomla/joomla-sqli-hdwplayer-01.yaml
+./poc/joomla/joomla-sqli-hdwplayer.yaml
+./poc/joomla/joomla-sqli-vnmshop.yaml
 ./poc/joomla/joomla-sqli-weblinks_categories.yaml
 ./poc/joomla/joomla-unserialized-user_agent.yaml
 ./poc/joomla/joomla-version-disclosure.yaml
@@ -285073,15 +285073,16 @@
 ./poc/sql_injection/Fangweicms-SQLi.yaml
 ./poc/sql_injection/GLPI-9.3.3-SQL-Injection.yaml
 ./poc/sql_injection/GLPI_SQL_Injection.yaml
+./poc/sql_injection/HJSOFT-HCM-sql-codesettree.yaml
 ./poc/sql_injection/HanWang_Time_Attendance_SQL_injection.yaml
 ./poc/sql_injection/Header-Blind-SQL-Injection.yaml
-./poc/sql_injection/JCMS-Opr_Datacall_Jsp-SQLi.yaml
+./poc/sql_injection/JCMS-Downfile_Jsp-SQLi.yaml
+./poc/sql_injection/JCMS-Que_Recemsg_Jsp-SQLi.yaml
 ./poc/sql_injection/JCMS-opr_classajax_SQLi.yaml
-./poc/sql_injection/Joomla-SQLi-com_rbids.yaml
-./poc/sql_injection/Joomla-sqli-com_gallery_wd.yaml
-./poc/sql_injection/Joomla-sqli-com_training.yaml
-./poc/sql_injection/Joomla-sqli-com_vikbooking.yaml
-./poc/sql_injection/Joomla_departments_SQL注入.yaml
+./poc/sql_injection/Joomla-sqli-com_blog_calendar.yaml
+./poc/sql_injection/Joomla-sqli-com_rpl.yaml
+./poc/sql_injection/Joomla-sqli-com_sponsorwall.yaml
+./poc/sql_injection/Joomla-sqli-registrationpro.yaml
 ./poc/sql_injection/Kingdee-sqli.yaml
 ./poc/sql_injection/LBS-SQLi.yaml
 ./poc/sql_injection/Landray-oa-sqli.yaml
@@ -285237,8 +285238,6 @@
 ./poc/sql_injection/TruboCRM-sqli-forgetpswd.yaml
 ./poc/sql_injection/Turkish-cms-sqli.yaml
 ./poc/sql_injection/V5Shop-sqli-commond.yaml
-./poc/sql_injection/VC-Que_Style_Coltop_JSP-SQLi.yaml
-./poc/sql_injection/VC-opr_copycode_jsp-SQLi.yaml
 ./poc/sql_injection/WPMS-sqli.yaml
 ./poc/sql_injection/Weaver_OA_8_SQL_injection.yaml
 ./poc/sql_injection/Weiphp-SQLi.yaml
@@ -285424,6 +285423,7 @@
 ./poc/sql_injection/cyberpanel-upgrademysqlstatus-rce.yaml
 ./poc/sql_injection/dahua-WPMS-sqli.yaml
 ./poc/sql_injection/dahua-clientserver-sqli.yaml
+./poc/sql_injection/dahua-wpms-searchjson-sqli .yaml
 ./poc/sql_injection/dahua_attachment_getAttList_sqli.yaml
 ./poc/sql_injection/dahua_smart_park_management_getfacecapture_sqli.yaml
 ./poc/sql_injection/dedecms-guestbook-sqli.yaml
@@ -285719,7 +285719,6 @@
 ./poc/sql_injection/gcloud-unrestricted-mysql-access.yaml
 ./poc/sql_injection/gcloud-unrestricted-postgresql-access.yaml
 ./poc/sql_injection/gcloud-unrestricted-sqlserver-access.yaml
-./poc/sql_injection/geoserver-jsonarraycontains-sqli.yaml
 ./poc/sql_injection/getSqlData_Sql.yaml
 ./poc/sql_injection/glodon-linkworks-GetIMDictionary-sqli.yaml
 ./poc/sql_injection/glodon-linkworks-getimdictionary-sqli.yaml
@@ -285745,7 +285744,11 @@
 ./poc/sql_injection/header-sqli.yaml
 ./poc/sql_injection/header-time-sqli.yaml
 ./poc/sql_injection/header_sqli.yaml
+./poc/sql_injection/hjsoft-eHR-showmediainfo-sqli.yaml
+./poc/sql_injection/hjsoft-eHR-system-sqli.yaml
 ./poc/sql_injection/hjsoft-ehr-showmedia-sqli.yaml
+./poc/sql_injection/hjsoft-hcm-getsdutytree-sqli.yaml
+./poc/sql_injection/hjsoft-hr-system-sqli.yaml
 ./poc/sql_injection/hongfan-iodesktopdata-sqli.yaml
 ./poc/sql_injection/hongfan-ioffice-ioassistance2-sqli.yaml
 ./poc/sql_injection/hongfan-ioffice-sqli.yaml
@@ -285790,15 +285793,10 @@
 ./poc/sql_injection/jinhuadijia-daping-ajax-act-get-data-sqli.yaml
 ./poc/sql_injection/jinhuadijia-daping-index-sqli.yaml
 ./poc/sql_injection/jira-plugin-sqli.yaml
-./poc/sql_injection/joomla-component-vreview-sql.yaml
-./poc/sql_injection/joomla-cve-2017-8917-sqli.yaml
-./poc/sql_injection/joomla-cve-2018-7314-sql.yaml
-./poc/sql_injection/joomla-department-sqli.yaml
+./poc/sql_injection/joomla-cve-2015-7297-sqli.yaml
+./poc/sql_injection/joomla-ext-zhbaidumap-cve-2018-6605-sqli.yaml
 ./poc/sql_injection/joomla-sqli-com_fss.yaml
-./poc/sql_injection/joomla-sqli-com_pccookbook.yaml
-./poc/sql_injection/joomla-sqli-com_redshop.yaml
-./poc/sql_injection/joomla-sqli-hdwplayer.yaml
-./poc/sql_injection/joomla-sqli-vnmshop.yaml
+./poc/sql_injection/joomla-sqli-hdwplayer-01.yaml
 ./poc/sql_injection/jsp-sql-injection-source.yaml
 ./poc/sql_injection/keron-aio-moffice-sqli.yaml
 ./poc/sql_injection/kevinlab-bems-sqli-8457.yaml
@@ -286160,7 +286158,7 @@
 ./poc/sql_injection/tongda-oa-general-system-seal-manage-unauth-sqli.yaml
 ./poc/sql_injection/tongda-oa-get-datas-sqli.yaml
 ./poc/sql_injection/tongda-oa-go-php-sqli.yaml
-./poc/sql_injection/tongda-oa-handle-form-sqli_1.yaml
+./poc/sql_injection/tongda-oa-handle-form-sqli.yaml
 ./poc/sql_injection/tongda-oa-interface-auth-sqli.yaml
 ./poc/sql_injection/tongda-oa-interface-ugo-sqli.yaml
 ./poc/sql_injection/tongda-oa-register-turn-sqli.yaml
@@ -286201,10 +286199,11 @@
 ./poc/sql_injection/vbulletin-ajaxreg-sqli.yaml
 ./poc/sql_injection/vbulletin-search-sqli.yaml
 ./poc/sql_injection/vscode-slnx-sqlite-disclosure.yaml
-./poc/sql_injection/wangkang_NS_ASG-sqli-menu_1.yaml
+./poc/sql_injection/wangkang_NS_ASG-sqli-menu.yaml
 ./poc/sql_injection/wanhu-documentedit-sqli.yaml
 ./poc/sql_injection/wanhu-ezeip-productlist-sqli-to-useradd.yaml
 ./poc/sql_injection/wanhu-ezoffice-documentedit-deal-sqli.yaml
+./poc/sql_injection/wanhu-ezoffice-documentedit-jsp-sqli.yaml
 ./poc/sql_injection/wanhu-ezoffice-documentedit-unite-sqli.yaml
 ./poc/sql_injection/wanhu-ezoffice-documenteditexcel-sqli.yaml
 ./poc/sql_injection/wanhu-ezoffice-dossier-documentedit-sqli.yaml
