@@ -8,7 +8,7 @@ info:
     - https://github.com/OWASP/vbscan
     - https://blog.sucuri.net/2017/01/vbulletin-malware-hackers-compete-backdoor-control.html
   metadata:
-    max-request: 21
+    max-request: 31
   tags: backdoor,php,vbulletin,rce
 
 flow: http(1) && http(2)
@@ -56,4 +56,4 @@ http:
           - "contains(body, '{{md5(num)}}')"
           - "status_code == 200"
         condition: and
-# digest: 4b0a00483046022100fc9d9fec38712f5956702b7671012d34e393f7734de77f86dc8997542b29951b022100837492912c868890c4eac03e42f9f598c26e26c835c363f11cd2cf966a21c221:922c64590222798bb761d5b6d8e72950
+# digest: 490a004630440220140a0cd4a972dda1d19412bb1e411cb1c793fc888c041a14c388fb4f7427bea00220254b7d65fbccf04f5bb9c23aacbd313a19ae1075233dcbde2dea106657624abe:922c64590222798bb761d5b6d8e72950
