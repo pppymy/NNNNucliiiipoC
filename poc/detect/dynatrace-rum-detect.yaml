@@ -1,31 +1,36 @@
-http:
-- matchers:
-  - condition: and
-    part: body
-    type: word
-    words:
-    - ruxitagentjs_
-    - data-dtconfig=
-  - status:
-    - 200
-    type: status
-  matchers-condition: and
-  method: GET
-  path:
-  - '{{BaseURL}}'
-  redirects: true
 id: dynatrace-rum-detect
-info:
-  author: Shivam Kamboj
-  description: 'Detects Dynatrace Real User Monitoring (RUM) and OneAgent artifacts.
 
-    '
+info:
+  name: Dynatrace RUM - Tech Detect
+  author: Shivam Kamboj
+  severity: info
+  description: |
+    Detects Dynatrace Real User Monitoring (RUM) and OneAgent artifacts.
+  reference:
+    - https://docs.dynatrace.com/docs/observe/digital-experience/rum-concepts/rum-overview
   metadata:
     max-request: 1
-    shodan-query: html:"ruxitagentjs"
     verified: true
-  name: Dynatrace RUM - Tech Detect
-  reference:
-  - https://docs.dynatrace.com/docs/observe/digital-experience/rum-concepts/rum-overview
-  severity: info
+    shodan-query: html:"ruxitagentjs"
   tags: tech,discovery,rum,dynatrace
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    redirects: true
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "ruxitagentjs_"
+          - "data-dtconfig="
+        condition: and
+
+      - type: status
+        status:
+          - 200
+
