@@ -1,23 +1,27 @@
 id: avalaunch-ftp-detect
 info:
+  name: Avalaunch FTP Service - Detect
   author: pussycat0x
+  severity: info
   description: Avalaunch FTP service was detected.
   metadata:
-    max-request: 1
-    shodan-query: The Avalaunch FTP system
     verified: true
-  name: Avalaunch FTP Service - Detect
-  severity: info
+    shodan-query: The Avalaunch FTP system
+    max-request: 1
   tags: network,ftp,avalaunch,detect,tcp,discovery
+
 tcp:
-- host:
-  - '{{Hostname}}'
-  inputs:
-  - data: 0
-    type: hex
-  matchers:
-  - type: word
-    words:
-    - The Avalaunch FTP system
-  port: 21
-  read-size: 1024
+  - inputs:
+      - data: 00000000
+        type: hex
+
+    host:
+      - "{{Hostname}}"
+    port: 21
+    read-size: 1024
+
+    matchers:
+      - type: word
+        words:
+          - "The Avalaunch FTP system"
+
