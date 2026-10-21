@@ -10,7 +10,7 @@ info:
     verified: true
     max-request: 1
     shodan-query: html:"Laragon" html:"phpinfo"
-  tags: laragon,exposure,misconfig,vuln
+  tags: laragon,exposure,misconfig
 
 http:
   - method: GET
@@ -35,4 +35,3 @@ http:
         regex:
           - '>PHP Version <\/td><td class="v">([0-9.]+)'
         part: body
-
