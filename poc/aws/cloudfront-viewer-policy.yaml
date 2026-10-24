@@ -58,3 +58,4 @@ code:
       - type: dsl
         dsl:
           - '"CloudFront Viewer Policy " + distribution + " allows all"'
+

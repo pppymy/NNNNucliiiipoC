@@ -64,3 +64,4 @@ code:
       - type: dsl
         dsl:
           - '"CloudFront Integrated With WAF " + distribution + " is Disabled"'
+

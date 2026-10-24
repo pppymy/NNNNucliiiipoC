@@ -31,3 +31,4 @@ code:
       - type: word
         words:
           - "LLMNR is misconfigured or enabled by default"
+

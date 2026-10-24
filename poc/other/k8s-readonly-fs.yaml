@@ -10,9 +10,8 @@ info:
   remediation: Configure containers to use read-only filesystems where possible to enhance security and minimize risk of unauthorized data modification
   reference:
     - https://kubernetes.io/docs/concepts/storage/volumes/#mount-propagation
-  metadata:
-    max-request: 2
   tags: cloud,devops,kubernetes,k8s,devsecops,pods,k8s-cluster-security
+
 flow: |
   code(1);
   for (let container of template.items) {
@@ -45,4 +44,4 @@ javascript:
       - type: dsl
         dsl:
           - response
-# digest: 4b0a004830460221008d29bff5a9ee8436cbd007be3e8ea7d9adde22d7ba56b153dad3a298636f379e022100857902d59b4dc2849a6618197e3062762c537f08d7ff3b8b5c38e030bd054c2a:922c64590222798bb761d5b6d8e72950
+

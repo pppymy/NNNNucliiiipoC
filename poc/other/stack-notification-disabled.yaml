@@ -56,3 +56,4 @@ code:
       - type: dsl
         dsl:
           - '"CloudFormation Stack Notification " + stacksummary + " is Disabled"'
+

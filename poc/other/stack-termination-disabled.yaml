@@ -56,3 +56,4 @@ code:
       - type: dsl
         dsl:
           - '"CloudFormation Termination Protection " + stacksummary + " is Disabled"'
+

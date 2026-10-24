@@ -24,9 +24,10 @@ code:
       - Bypass
     pattern: "*.ps1"
     source: |
-       (Get-WmiObject -Class Win32_UserAccount -Filter "Name='Guest' and LocalAccount=True").Disabled
+      (Get-WmiObject -Class Win32_UserAccount -Filter "Name='Guest' and LocalAccount=True").Disabled
 
     matchers:
       - type: word
         words:
           - "False"
+
