@@ -58,4 +58,3 @@ code:
       - type: dsl
         dsl:
           - '"Cloudfront Custom SSL/TLS Certificates " + distribution + " In Use"'
-

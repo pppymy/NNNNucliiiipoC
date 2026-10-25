@@ -33,4 +33,3 @@ code:
           - 'SecurityServicesRunning\s+:\s+\{0\}'
           - 'VirtualizationBasedSecurityStatus\s+:\s+0'
         condition: or
-
