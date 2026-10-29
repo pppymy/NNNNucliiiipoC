@@ -30,4 +30,4 @@ code:
       - type: word
         words:
           - "shutdownwithoutlogon : 1"
-
+# digest: 490a00463044022063c2992c27e0da77173746d7f7db42c238b99e007f5bbf223159c3f8af39f7c702205f31100451ed2e934cddf788a46a09d8a0575c0bcba58ca2a496d88ffad9f6f6:922c64590222798bb761d5b6d8e72950

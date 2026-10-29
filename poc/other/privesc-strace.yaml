@@ -46,4 +46,4 @@ code:
           - 'contains(code_2_response, "root")'
           - 'contains(code_3_response, "root")'
         condition: or
-
+# digest: 4a0a0047304502202b121064fdd29dfb40970b3956fcfb830cc7150f895b56913870f21c1f2f5e85022100fd214757ef5ac44a07cfc6fcdcf6da1fe59cd2b44f98829f01fc6af0c58045d8:922c64590222798bb761d5b6d8e72950
