@@ -1,15 +1,15 @@
-id: forminator-36aa7193-0e31-4084-97d0-8c22ebff3f05
+id: forminator-de1aaacf-8fe1-4a1e-9846-f78cc469ec20
 
 info:
   name: >
-    Forminator Forms <= 1.55.0.2 - Insecure Direct Object Reference to Unauthenticated Sensitive Information Disclosure via 'draft' Parameter
+    Forminator Forms <= 1.55.0.2 - Unauthenticated Limited File Deletion via Draft Upload Metadata
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/36aa7193-0e31-4084-97d0-8c22ebff3f05?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/de1aaacf-8fe1-4a1e-9846-f78cc469ec20?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 

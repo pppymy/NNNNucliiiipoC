@@ -1,15 +1,15 @@
-id: miniorange_login_with_eve_online_google_facebook-a250f678-1ec7-48ea-8b81-e5ef89992155
+id: miniorange_login_with_eve_online_google_facebook-f6658edb-11dc-4594-8936-95d60d581f49
 
 info:
   name: >
-    OAuth Single Sign On – SSO (OAuth Client) <= 6.24.1- Cross-Site Request Forgery via 'discard' in mooauth_client_applist_page
+    OAuth Single Sign On – SSO (OAuth Client) <= 6.24.1 - Cross-Site Request Forgery via 'delete' in mooauth_client_applist_page
   author: topscoder
   severity: medium
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/a250f678-1ec7-48ea-8b81-e5ef89992155?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/f6658edb-11dc-4594-8936-95d60d581f49?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
