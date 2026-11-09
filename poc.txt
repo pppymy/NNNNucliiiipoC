@@ -38862,7 +38862,6 @@
 ./poc/cve/CVE-2015-10139.yaml
 ./poc/cve/CVE-2015-10140-ajax_load_more-10e98088-423d-45bb-ae90-51e895d2929b.yaml
 ./poc/cve/CVE-2015-10140.yaml
-./poc/cve/CVE-2015-10141.yaml
 ./poc/cve/CVE-2015-10141_1.yaml
 ./poc/cve/CVE-2015-10141_10.yaml
 ./poc/cve/CVE-2015-10141_11.yaml
@@ -123878,6 +123877,7 @@
 ./poc/cve/CVE-2024-4535_1.yaml
 ./poc/cve/CVE-2024-45388.yaml
 ./poc/cve/CVE-2024-45388_1.yaml
+./poc/cve/CVE-2024-45409.yaml
 ./poc/cve/CVE-2024-4541-a13821acc4717443a1924b4c9fcddcab.yaml
 ./poc/cve/CVE-2024-4541-custom_product_list_table-4c046e0c-32d2-47d1-9890-d05d69217161.yaml
 ./poc/cve/CVE-2024-4541.yaml
@@ -130212,6 +130212,7 @@
 ./poc/cve/CVE-2024-7332_2.yaml
 ./poc/cve/CVE-2024-7339.yaml
 ./poc/cve/CVE-2024-7339_1.yaml
+./poc/cve/CVE-2024-7339_2.yaml
 ./poc/cve/CVE-2024-7339_3.yaml
 ./poc/cve/CVE-2024-7340.yaml
 ./poc/cve/CVE-2024-7340_1.yaml
@@ -165495,7 +165496,7 @@
 ./poc/drupal/drupal_module-openid_connect_windows_aad-access-bypass_3.yaml
 ./poc/drupal/drupal_module-opigno_forum-access-bypass_1.yaml
 ./poc/drupal/drupal_module-opigno_group_manager-ui-redressing-.yaml
-./poc/drupal/drupal_module-opigno_learning_path-access-bypass.yaml
+./poc/drupal/drupal_module-opigno_learning_path-access-bypass_1.yaml
 ./poc/drupal/drupal_module-opigno_learning_path-access-bypass_2.yaml
 ./poc/drupal/drupal_module-opigno_learning_path-ui-redressing-.yaml
 ./poc/drupal/drupal_module-pages_restriction-access-bypass_1.yaml
@@ -173884,8 +173885,8 @@
 ./poc/joomla/joomla-config-file_3.yaml
 ./poc/joomla/joomla-config-file_4.yaml
 ./poc/joomla/joomla-cve-2015-7297-sqli.yaml
-./poc/joomla/joomla-cve-2017-8917-sqli.yaml
-./poc/joomla/joomla-cve-2018-7314-sql.yaml
+./poc/joomla/joomla-cve-2017-8917-sqli.yml
+./poc/joomla/joomla-cve-2018-7314-sql.yml
 ./poc/joomla/joomla-cve-2023-23752.yaml
 ./poc/joomla/joomla-department-sqli.yaml
 ./poc/joomla/joomla-department-sqli_1.yaml
@@ -173960,7 +173961,7 @@
 ./poc/joomla/joomla-sqli-K2.yaml
 ./poc/joomla/joomla-sqli-com_fss.yaml
 ./poc/joomla/joomla-sqli-com_job.yaml
-./poc/joomla/joomla-sqli-com_jobprofile_1.yaml
+./poc/joomla/joomla-sqli-com_jobprofile.yaml
 ./poc/joomla/joomla-sqli-com_pccookbook.yaml
 ./poc/joomla/joomla-sqli-com_people.yaml
 ./poc/joomla/joomla-sqli-com_redshop.yaml
@@ -221726,6 +221727,7 @@
 ./poc/other/email_queue-153a9a08-66b3-40fd-963d-93058c863a80.yaml
 ./poc/other/email_reminders-a0adfd13-a9f1-4bec-96ec-6a51cd08e4ea.yaml
 ./poc/other/email_reminders-c9fd7c6b-9ba3-4e27-9b3d-8b1fbcc5e26f.yaml
+./poc/other/email_security_gateway.yaml
 ./poc/other/email_shortcode-c7b5e028-d4ea-4f6d-aee1-0e9661853d43.yaml
 ./poc/other/email_subscribe-033f8b21-6c5a-433f-b60d-5509fb203234.yaml
 ./poc/other/email_subscribe-14ffe10e-e1a6-4752-9ff9-d2b01a49521e.yaml
@@ -280391,7 +280393,7 @@
 ./poc/php/php-shell-plugin-d41d8cd98f00b204e9800998ecf8427e_2.yaml
 ./poc/php/php-shell-plugin.yaml
 ./poc/php/php-shell.yaml
-./poc/php/php-shell_1_2.yaml
+./poc/php/php-shell_1.yaml
 ./poc/php/php-source-code-windows.yaml
 ./poc/php/php-src-diclosure.yaml
 ./poc/php/php-src-disclosure.yaml
@@ -280479,7 +280481,7 @@
 ./poc/php/phpcollab-panel_2.yaml
 ./poc/php/phpcollab-panel_3.yaml
 ./poc/php/phpcollab-workflow-9502.yaml
-./poc/php/phpcollab-workflow.yaml
+./poc/php/phpcollab-workflow-9503.yaml
 ./poc/php/phpcollab-workflow_1.yaml
 ./poc/php/phpcollab.yaml
 ./poc/php/phpcs-config.yaml
