@@ -13688,8 +13688,7 @@
 ./poc/backup/veeam-backup-azure-panel_3.yaml
 ./poc/backup/veeam-backup-azure-panel_4.yaml
 ./poc/backup/veeam-backup-azure-panel_7.yaml
-./poc/backup/veeam-backup-gcp.yaml
-./poc/backup/veeam-backup-gcp_1.yaml
+./poc/backup/veeam-backup-gcp_2.yaml
 ./poc/backup/veeam-backup-manager-login_1.yaml
 ./poc/backup/veeam-backup-manager-login_2.yaml
 ./poc/backup/velero-backup-api-anonymous.yaml
@@ -15001,6 +15000,7 @@
 ./poc/cnvd/fanwei-Ecology-browser-sqli-CNVD-2023-12632.yaml
 ./poc/cnvd/h5s-video-platform-cnvd-2020-67113-unauth.yaml
 ./poc/cnvd/h5s-video-platform-cnvd-2020-67113-unauth.yml
+./poc/cnvd/joomla-cnvd-2019-34135-rce.yaml
 ./poc/cnvd/metinfo-lfi-cnvd-2018-13393.yaml
 ./poc/cnvd/ruijie-eweb-rce-cnvd-2021-09650.yaml
 ./poc/cnvd/ruijie-uac-cnvd-2021-14536.yaml
@@ -104557,6 +104557,7 @@
 ./poc/cve/CVE-2024-1747.yaml
 ./poc/cve/CVE-2024-1751-f8ae116db8133fbbea3fae8e2875166f.yaml
 ./poc/cve/CVE-2024-1751-tutor-f9cee379-79f8-4a60-b1bb-ccab1e954512.yaml
+./poc/cve/CVE-2024-1751.yaml
 ./poc/cve/CVE-2024-1751_1.yaml
 ./poc/cve/CVE-2024-1751_2.yaml
 ./poc/cve/CVE-2024-1752-fbf8771491e1039aae06df3fd0fee1c5.yaml
@@ -146798,7 +146799,6 @@
 ./poc/cve/CVE-2026-4432-yith_woocommerce_wishlist-7e947678-a575-4b2c-8da1-4a801a7a642c.yaml
 ./poc/cve/CVE-2026-44338.yaml
 ./poc/cve/CVE-2026-44343.yaml
-./poc/cve/CVE-2026-44381.yaml
 ./poc/cve/CVE-2026-44551.yaml
 ./poc/cve/CVE-2026-44572.yaml
 ./poc/cve/CVE-2026-44573.yaml
@@ -164160,8 +164160,8 @@
 ./poc/fuzz/reewardius-xss-fuzz.yaml
 ./poc/fuzz/rfi-fuzz.yaml
 ./poc/fuzz/simple-fuzzing-rce.yaml
+./poc/fuzz/ssrf-fuzz.yaml
 ./poc/fuzz/ssrf-fuzz_1.yaml
-./poc/fuzz/ssrf-fuzzer.yaml
 ./poc/fuzz/ssti-fuzz.yaml
 ./poc/fuzz/swagger-xss-fuzzing.yaml
 ./poc/fuzz/waf-fuzz.yaml
@@ -164578,7 +164578,8 @@
 ./poc/gcloud/springcloud-cve-2019-3799.yaml
 ./poc/gcloud/springcloud-cve-2019-3799.yml
 ./poc/gcloud/springcloud-function-spel-rce.yaml
-./poc/gcloud/veeam-backup-gcp_2.yaml
+./poc/gcloud/veeam-backup-gcp.yaml
+./poc/gcloud/veeam-backup-gcp_1.yaml
 ./poc/gcloud/vehiclemonitoringcloudplatform.yaml
 ./poc/gcloud/xc_woo_google_cloud_print-6f593dce-4b56-46c0-becd-75fd16f165a8.yaml
 ./poc/git/Git-logs-found.yaml
@@ -169189,7 +169190,6 @@
 ./poc/joomla/freejoomlas.yaml
 ./poc/joomla/joomla!.yaml
 ./poc/joomla/joomla-3df6527a.yaml
-./poc/joomla/joomla-cnvd-2019-34135-rce.yaml
 ./poc/joomla/joomla-com-booking-component.yaml
 ./poc/joomla/joomla-com-fabrik-lfi-8370.yaml
 ./poc/joomla/joomla-com-fabrik-lfi-8370_2.yaml
@@ -193993,6 +193993,7 @@
 ./poc/other/alert_before_your_post-5d7b33c5-ced5-4ce5-acc1-4c3d935f8749.yaml
 ./poc/other/alert_box_block-d63cd13e-4a16-483f-8165-6c8090ceebab.yaml
 ./poc/other/alert_me-541cb2b1-1657-4f26-932f-c32bd51ad970.yaml
+./poc/other/alerta.yaml
 ./poc/other/alex-reservations.yaml
 ./poc/other/alex_reservations-66ff1536-16b4-48a3-89ba-d0ea7d1efa39.yaml
 ./poc/other/alex_reservations-89ddede9-3170-48bb-aae5-14f915330f67.yaml
@@ -240821,6 +240822,7 @@
 ./poc/other/openethereum-server.yaml
 ./poc/other/openexchangerates-csp-bypass.yaml
 ./poc/other/openexchangerates-csp-bypass_1.yaml
+./poc/other/openfga.yaml
 ./poc/other/openfiler.yaml
 ./poc/other/openfire-admin-panel.yaml
 ./poc/other/openfire-admin-panel_1.yaml
@@ -252208,6 +252210,7 @@
 ./poc/other/secure_custom_fields-e85a6a5c-f33e-4d49-9662-8bff5d296830.yaml
 ./poc/other/secure_downloads-74506798-a198-4ea8-8628-01ce4df27abe.yaml
 ./poc/other/secure_files-2fd7d6af-a938-4106-aed2-12b9a5454da9.yaml
+./poc/other/secure_firewall_management_center.yaml
 ./poc/other/secure_html5_video_player-4d2b8bc2-68c2-40aa-b8b0-a0584549f303.yaml
 ./poc/other/securelinx_spider_firmware.yaml
 ./poc/other/securemoz-security-audit-5934c9784ef1b47d3135045450f457ae.yaml
@@ -259804,6 +259807,7 @@
 ./poc/other/t24.yaml
 ./poc/other/t5000-malware.yaml
 ./poc/other/t_countdown-23a0dcdf-e98f-4e24-9900-49ca522b8038.yaml
+./poc/other/t_plus.yaml
 ./poc/other/tab-and-link-manager.yaml
 ./poc/other/tab-my-content.yaml
 ./poc/other/tabapay_gateway-51d0ab38-fa5b-4c96-a849-06d6ab3caf2b.yaml
@@ -294523,7 +294527,6 @@
 ./poc/ssrf/SSRF-bitrix-html-editor-ssrf.yaml
 ./poc/ssrf/SSRF-bitrix-ssrf-advanced.yaml
 ./poc/ssrf/SSRF-bitrix-urlpreview-ssrf.yaml
-./poc/ssrf/VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE-2021-21975.yaml
 ./poc/ssrf/WebSphere-SSRF.yaml
 ./poc/ssrf/Weblogic_SSRF漏洞_CVE-2014-4210.yaml
 ./poc/ssrf/Wehsphere-SSRF.yaml
@@ -294682,7 +294685,6 @@
 ./poc/ssrf/openclaw-ssrf-proxy-bypass.yaml
 ./poc/ssrf/openfire-cve-2019-18394-ssrf.yaml
 ./poc/ssrf/owasp-top10-a10-ssrf-metadata-endpoint.yaml
-./poc/ssrf/poc-yaml-vmware-vcenter-ssrf.yaml
 ./poc/ssrf/podcast-generator-ssrf.yaml
 ./poc/ssrf/portal-api-ssrf.yaml
 ./poc/ssrf/portal-api-ssrf_1.yaml
@@ -294711,7 +294713,7 @@
 ./poc/ssrf/ssrf-cookie.yaml
 ./poc/ssrf/ssrf-dns-rebind.yaml
 ./poc/ssrf/ssrf-filestorage.yaml
-./poc/ssrf/ssrf-fuzz.yaml
+./poc/ssrf/ssrf-fuzzer.yaml
 ./poc/ssrf/ssrf-header-injection.yaml
 ./poc/ssrf/ssrf-header.yaml
 ./poc/ssrf/ssrf-injection.yaml
@@ -294766,8 +294768,12 @@
 ./poc/ssrf/umbraco-base-ssrf.yaml
 ./poc/ssrf/umbraco-base-ssrf_1.yaml
 ./poc/ssrf/umbraco-base-ssrf_2_1.yaml
+./poc/ssrf/vmware-vcenter-ssrf-11051.yaml
 ./poc/ssrf/vmware-vcenter-ssrf-11051_1.yaml
-./poc/ssrf/vmware-vrealize-cve-2021-21975-ssrf.yaml
+./poc/ssrf/vmware-vcenter-ssrf-11052.yaml
+./poc/ssrf/vmware-vcenter-ssrf-11052_1.yaml
+./poc/ssrf/vmware-vcenter-ssrf-11053.yaml
+./poc/ssrf/vmware-vcenter-ssrf.yaml
 ./poc/ssrf/w3c-total-cache-ssrf-11077.yaml
 ./poc/ssrf/w3c-total-cache-ssrf-11078.yaml
 ./poc/ssrf/w3c-total-cache-ssrf-11079.yaml
@@ -297261,11 +297267,13 @@
 ./poc/upload/用友u8_uploadfiledata任意文件上传.yaml
 ./poc/upload/通达oa_v2017_action_upload任意文件上传漏洞.yaml
 ./poc/upload/金和oa_jc6_ntko-upload_任意文件上传漏洞复现.yaml
+./poc/vmware/VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE-2021-21975.yaml
 ./poc/vmware/VMware-CVE-2022-22954-RCE.yml
 ./poc/vmware/VMware_vCenter远程代码执行漏洞.yaml
 ./poc/vmware/VmwareVcenter-Arbitrary-FileRead.yaml
 ./poc/vmware/custom-vmware-vsphere-file-read.yaml
 ./poc/vmware/kaue-xss-vmware-vcloud-director.yaml
+./poc/vmware/poc-yaml-vmware-vcenter-ssrf.yaml
 ./poc/vmware/vmware-airwatch-version-detect.yaml
 ./poc/vmware/vmware-airwatch-version-detect_2.yaml
 ./poc/vmware/vmware-aria-operations-for-logs.yaml
@@ -297414,12 +297422,7 @@
 ./poc/vmware/vmware-vcenter-log4j-rce.yaml
 ./poc/vmware/vmware-vcenter-provider-logo-ssrf.yaml
 ./poc/vmware/vmware-vcenter-provider-logo-url-ssrf.yml
-./poc/vmware/vmware-vcenter-ssrf-11051.yaml
-./poc/vmware/vmware-vcenter-ssrf-11052.yaml
-./poc/vmware/vmware-vcenter-ssrf-11052_1.yaml
 ./poc/vmware/vmware-vcenter-ssrf-11052_1_1_1.yaml
-./poc/vmware/vmware-vcenter-ssrf-11053.yaml
-./poc/vmware/vmware-vcenter-ssrf.yaml
 ./poc/vmware/vmware-vcenter-unauthorized-rce-cve-2021-21972.yaml
 ./poc/vmware/vmware-vcenter-vib-readfile.yml
 ./poc/vmware/vmware-vcenter.yaml
@@ -297434,6 +297437,7 @@
 ./poc/vmware/vmware-version-detect.yaml
 ./poc/vmware/vmware-view-planner-rce-cve-2021-21978-probe.yaml
 ./poc/vmware/vmware-virtualcenter.yaml
+./poc/vmware/vmware-vrealize-cve-2021-21975-ssrf.yaml
 ./poc/vmware/vmware-vrealize-detect-11056.yaml
 ./poc/vmware/vmware-vrealize-detect-11057.yaml
 ./poc/vmware/vmware-vrealize-detect-11058.yaml
